@@ -1,0 +1,38 @@
+name: 증시 데이터 수집
+
+# 언제 실행할지
+on:
+  schedule:
+    # 매일 한국시간 16:00 (장마감 직후) 실행. cron은 UTC 기준이라 07:00 = 한국 16:00
+    - cron: "0 7 * * 1-5"   # 월~금만
+    # 미국장 마감 반영분이 필요하면 아래 줄 주석(#) 풀기 → 한국시간 07:00 추가 실행
+    # - cron: "0 22 * * 1-5"
+  workflow_dispatch: {}      # 깃허브에서 '수동 실행' 버튼으로도 돌릴 수 있게
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # 결과(data.json)를 저장소에 다시 저장할 권한
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 라이브러리 설치
+        run: pip install finance-datareader yfinance pykrx
+
+      - name: 데이터 수집 실행
+        run: python fetch_data.py
+
+      - name: 결과 저장(commit)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data.json
+          git commit -m "데이터 업데이트: $(date +'%Y-%m-%d %H:%M')" || echo "변경사항 없음"
+          git push
