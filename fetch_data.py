@@ -101,25 +101,35 @@ def build_stock(group, code, name, logo, data):
 
 
 def get_kospi_volume_top3():
-    """코스피 전체 종목 중 오늘 거래량 상위 3개"""
-    # 최근 영업일 찾기 (주말/휴일 대비 며칠 역으로 시도)
-    for back in range(0, 7):
+    """코스피 전체 종목 중 오늘(또는 가장 최근 영업일) 거래량 상위 3개"""
+    df = None
+    # 최근 영업일 찾기: 오늘부터 최대 10일 거꾸로 시도 (주말·연휴 대비)
+    for back in range(0, 10):
         day = (datetime.now() - timedelta(days=back)).strftime("%Y%m%d")
         try:
-            df = krx.get_market_ohlcv(day, market="KOSPI")
-            if df is not None and not df.empty and df["거래량"].sum() > 0:
+            d = krx.get_market_ohlcv(day, market="KOSPI")
+            if d is not None and not d.empty and "거래량" in d and d["거래량"].sum() > 0:
+                df = d
                 break
         except Exception:
             continue
+
+    # 끝내 못 가져오면 빈 리스트 반환(전체 스크립트는 계속 진행)
+    if df is None or df.empty:
+        print("⚠️ 코스피 거래량 데이터를 가져오지 못했습니다(휴장일일 수 있음). 건너뜁니다.")
+        return []
+
     top = df.sort_values("거래량", ascending=False).head(3)
     result = []
     for code, row in top.iterrows():
-        name = krx.get_market_ticker_name(code)
+        try:
+            name = krx.get_market_ticker_name(code)
+        except Exception:
+            name = str(code)
         result.append(build_stock("kospi_top", code, name, name[:2], {
             "price": round(float(row["종가"]), 2),
             "change": round(float(row["등락률"]), 2),
-            "prevClose": round(float(row["종가"]) - float(row["변동폭"]), 2)
-                          if "변동폭" in row else round(float(row["종가"]), 2),
+            "prevClose": round(float(row["종가"]) - float(row.get("변동폭", 0)), 2),
             "trend": [1.0] * TREND_DAYS,   # 순위 종목 추세는 간략화(원하면 개별 조회로 확장)
             "volume": int(row["거래량"]),
         }))
@@ -132,17 +142,23 @@ def main():
     stocks = []
     # 1~3 고정
     for code, name, logo in FIXED:
-        stocks.append(build_stock("fixed", code, name, logo, get_kr_stock(code)))
+        try:
+            stocks.append(build_stock("fixed", code, name, logo, get_kr_stock(code)))
+        except Exception as e:
+            print(f"⚠️ {name}({code}) 수집 실패: {e}")
 
     # 4~6 미국 반도체 거래량 TOP3
     us = []
     for ticker, name, logo in US_SEMI:
-        d = get_us_stock(ticker)
-        us.append((d["volume"], build_stock("us_semi", ticker, name, logo, d)))
+        try:
+            d = get_us_stock(ticker)
+            us.append((d["volume"], build_stock("us_semi", ticker, name, logo, d)))
+        except Exception as e:
+            print(f"⚠️ {name}({ticker}) 수집 실패: {e}")
     us.sort(key=lambda x: x[0], reverse=True)
     stocks.extend([s for _, s in us[:3]])
 
-    # 7~9 코스피 거래량 TOP3
+    # 7~9 코스피 거래량 TOP3 (휴장일이면 빈 리스트)
     stocks.extend(get_kospi_volume_top3())
 
     payload = {
