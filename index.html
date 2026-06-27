@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>데일리 증시 브리핑</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0B0E11; color: #E8EAED; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+  .ticker-track { animation: ticker-scroll 22s linear infinite; }
+  @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none; } }
+  .spin { animation: spin 0.7s linear infinite; }
+  @keyframes spin { from { transform: rotate(0); } to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect } = React;
+
+// ★ 내 GitHub Pages 데이터 주소
+const DATA_URL = "https://jacobimwook-arch.github.io/stock-briefing/data.json";
+
+// ── 색상 ──
+const C = { bg:"#0B0E11", card:"#131820", border:"#1F2630", muted:"#8B92A0",
+  faint:"#566073", amber:"#FFB000", up:"#FF4757", down:"#4D7CFE", text:"#E8EAED", subcard:"#0E1217" };
+
+const tagColor = { "한국":"#FFB000", "미국":"#8B92A0", "전쟁":"#FF6B6B" };
+const groupLabel = { us_semi:"美 반도체 거래량 TOP3", kospi_top:"코스피 거래량 TOP3" };
+
+function fmt(n){ return Number(n).toLocaleString("ko-KR", { maximumFractionDigits: 2 }); }
+function fmtVol(n){ return (n/10000).toLocaleString("ko-KR",{maximumFractionDigits:0})+"만주"; }
+
+function Arrow({up,size=11}){
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"
+      style={{display:"inline-block", verticalAlign:"middle"}}>
+      {up ? <polyline points="6 15 12 9 18 15"/> : <polyline points="6 9 12 15 18 9"/>}
+    </svg>
+  );
+}
+
+function ChangeTag({change}){
+  const isUp = change >= 0;
+  const col = isUp ? C.up : C.down;
+  return (
+    <span className="mono" style={{color:col, fontSize:13, display:"inline-flex", alignItems:"center", gap:2}}>
+      <Arrow up={isUp} size={12}/>{Math.abs(change).toFixed(2)}%
+    </span>
+  );
+}
+
+function ImpactTag({impact}){
+  if(impact==="neutral" || !impact)
+    return <span className="mono" style={{color:C.faint, fontSize:11, flexShrink:0}}>중립</span>;
+  const isPos = impact==="pos";
+  const col = isPos ? C.up : C.down;
+  return (
+    <span className="mono" style={{color:col, fontSize:11, flexShrink:0, display:"inline-flex", alignItems:"center", gap:2}}>
+      <Arrow up={isPos} size={11}/>{isPos?"호재":"악재"}
+    </span>
+  );
+}
+
+function Sparkline({data, color, width=56, height=22}){
+  if(!data || data.length<2) return <svg width={width} height={height}/>;
+  const min=Math.min(...data), max=Math.max(...data), range=(max-min)||1;
+  const pts=data.map((v,i)=>{
+    const x=(i/(data.length-1))*width;
+    const y=height-((v-min)/range)*height;
+    return x+","+y.toFixed(1);
+  }).join(" ");
+  return (
+    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
+      <polyline points={pts} fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+}
+
+function LogoBadge({text}){
+  return (
+    <div className="mono" style={{width:26, height:26, background:"#1F2630", border:"1px solid #2A323D",
+      color:C.amber, fontSize:(text&&text.length>2)?9:10, borderRadius:6, flexShrink:0,
+      display:"flex", alignItems:"center", justifyContent:"center"}}>{text}</div>
+  );
+}
+
+function Label({children}){
+  return <p className="mono" style={{color:C.muted, fontSize:11, letterSpacing:"0.15em",
+    textTransform:"uppercase", marginBottom:8}}>{children}</p>;
+}
+
+// ── 샘플(폴백) ──
+const SAMPLE = {
+  updatedAt: new Date().toISOString(),
+  indices:[{name:"KOSPI",value:2789,change:0.82},{name:"KOSDAQ",value:845,change:-0.34},
+    {name:"S&P 500",value:6190,change:0.45},{name:"NASDAQ",value:20184,change:1.12}],
+  fx:{name:"USD/KRW",value:1372,change:-0.21},
+  stocks:[
+    {group:"fixed",name:"삼성전자",code:"005930",logo:"삼전",price:71200,change:1.28,prevClose:70300,trend:[0.97,0.965,0.975,0.98,0.978,0.99,1],reasons:[]},
+    {group:"fixed",name:"SK하이닉스",code:"000660",logo:"SK",price:198500,change:2.45,prevClose:193700,trend:[0.92,0.94,0.93,0.95,0.965,0.98,1],reasons:[]},
+    {group:"fixed",name:"삼성전기",code:"009150",logo:"전기",price:165000,change:0.55,prevClose:164000,trend:[0.985,0.99,0.978,0.985,0.99,0.995,1],reasons:[]},
+  ],
+  news:[{tag:"한국",text:"샘플 뉴스입니다 (데이터를 불러오지 못함)",impact:"neutral"}],
+  summary:"",
+};
+
+function App(){
+  const [data,setData]=useState(SAMPLE);
+  const [live,setLive]=useState(false);
+  const [spinning,setSpinning]=useState(false);
+  const [err,setErr]=useState("");
+
+  async function load(){
+    setSpinning(true); setErr("");
+    try{
+      const res=await fetch(DATA_URL+"?t="+Date.now());
+      if(!res.ok) throw new Error("HTTP "+res.status);
+      const d=await res.json();
+      setData(d); setLive(true);
+    }catch(e){
+      setErr(String(e.message||e)); setLive(false);
+    }finally{ setSpinning(false); }
+  }
+  useEffect(()=>{ load(); },[]);
+
+  const today=new Date().toLocaleDateString("ko-KR",{year:"numeric",month:"long",day:"numeric",weekday:"long"});
+  const tickerItems=[...(data.indices||[]), data.fx].filter(Boolean);
+
+  let prevGroup=null;
+
+  return (
+    <div style={{display:"flex", justifyContent:"center"}}>
+      <div style={{width:"100%", maxWidth:448, borderLeft:`1px solid ${C.border}`, borderRight:`1px solid ${C.border}`, minHeight:"100vh"}}>
+
+        {/* 티커 */}
+        <div style={{overflow:"hidden", borderBottom:`1px solid ${C.border}`, background:C.subcard}}>
+          <div className="ticker-track" style={{display:"flex", whiteSpace:"nowrap", padding:"8px 0"}}>
+            {[...tickerItems,...tickerItems].map((it,i)=>(
+              <span key={i} className="mono" style={{fontSize:12, padding:"0 16px", color:C.amber, display:"flex", alignItems:"center", gap:6}}>
+                {it.name}
+                <span style={{color: it.change>=0?C.up:C.down}}>
+                  {fmt(it.value)} ({it.change>=0?"+":""}{Number(it.change).toFixed(2)}%)
+                </span>
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* 헤더 */}
+        <div style={{padding:"16px 20px 12px", display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+          <div>
+            <p className="mono" style={{fontSize:11, letterSpacing:"0.15em", textTransform:"uppercase", color:C.muted}}>Daily Briefing</p>
+            <h1 style={{fontSize:18, fontWeight:600, marginTop:2}}>{today}</h1>
+          </div>
+          <button onClick={load} style={{padding:8, borderRadius:"50%", background:C.card, border:`1px solid ${C.border}`, cursor:"pointer", color:C.amber, display:"flex"}}>
+            <svg className={spinning?"spin":""} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+            </svg>
+          </button>
+        </div>
+
+        {/* 개별 종목 */}
+        <div style={{padding:"4px 20px 0"}}>
+          <Label>개별 종목</Label>
+          <div style={{borderRadius:12, overflow:"hidden", border:`1px solid ${C.border}`}}>
+            {(data.stocks||[]).map((s,i)=>{
+              const history=(s.trend||[1]).map(m=>s.price*m);
+              const prevClose=(s.prevClose!=null)?s.prevClose:history[history.length-2];
+              const weekUp=history[0]<history[history.length-1];
+              const sparkColor=weekUp?C.up:C.down;
+              const showDivider = s.group!==prevGroup && groupLabel[s.group];
+              prevGroup=s.group;
+              return (
+                <div key={s.code+i}>
+                  {showDivider && (
+                    <div style={{padding:"6px 12px", background:C.subcard, borderTop:`1px solid ${C.border}`}}>
+                      <p className="mono" style={{color:C.faint, fontSize:10, letterSpacing:"0.05em"}}>{groupLabel[s.group]}</p>
+                    </div>
+                  )}
+                  <div style={{padding:"12px", background:C.card, borderTop:(i===0||showDivider)?"none":`1px solid ${C.border}`}}>
+                    <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+                      <div style={{display:"flex", alignItems:"center", gap:10}}>
+                        <span className="mono" style={{fontSize:12, width:16, textAlign:"center", color:C.faint}}>{i+1}</span>
+                        <LogoBadge text={s.logo}/>
+                        <div>
+                          <p style={{fontSize:14}}>{s.name}</p>
+                          <p className="mono" style={{color:C.muted, fontSize:11}}>{s.code}{s.volume?` · ${fmtVol(s.volume)}`:""}</p>
+                        </div>
+                      </div>
+                      <div style={{display:"flex", alignItems:"center", gap:10}}>
+                        <Sparkline data={history} color={sparkColor}/>
+                        <div style={{textAlign:"right"}}>
+                          <p className="mono" style={{fontSize:14}}>{fmt(s.price)}</p>
+                          <ChangeTag change={s.change}/>
+                          <p className="mono" style={{color:C.faint, fontSize:10, marginTop:2}}>전일 {fmt(prevClose)}</p>
+                        </div>
+                      </div>
+                    </div>
+                    {(s.reasons&&s.reasons.length>0) && (
+                      <div style={{display:"flex", flexWrap:"wrap", gap:6, marginTop:10, paddingLeft:62}}>
+                        {s.reasons.map((r,ri)=>{
+                          const col=r.s==="pos"?C.up:C.down;
+                          return <span key={ri} className="mono" style={{color:col, background:"#1A2029",
+                            border:`1px solid ${col}55`, fontSize:10, padding:"2px 8px", borderRadius:999}}>#{r.t}</span>;
+                        })}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          {(data.stocks||[]).every(s=>!s.reasons||s.reasons.length===0) && (
+            <p className="mono" style={{color:C.faint, fontSize:11, marginTop:6}}>등락 키워드는 AI 분석(3단계) 연동 후 표시됩니다</p>
+          )}
+        </div>
+
+        {/* 뉴스 */}
+        <div style={{padding:"20px 20px 0"}}>
+          <Label>오늘의 주요 뉴스</Label>
+          <div style={{borderRadius:12, overflow:"hidden", border:`1px solid ${C.border}`}}>
+            {(data.news||[]).map((n,i)=>(
+              <div key={i} style={{display:"flex", alignItems:"flex-start", gap:10, padding:"10px 12px",
+                background:C.card, borderTop:i===0?"none":`1px solid ${C.border}`}}>
+                <span className="mono" style={{fontSize:12, marginTop:2, color:C.faint}}>{String(i+1).padStart(2,"0")}</span>
+                <div style={{flex:1}}>
+                  <span className="mono" style={{color:tagColor[n.tag]||C.muted, border:`1px solid ${(tagColor[n.tag]||C.muted)}55`,
+                    fontSize:10, padding:"1px 6px", borderRadius:4, marginRight:6}}>{n.tag}</span>
+                  <span style={{fontSize:14, lineHeight:1.4}}>{n.text}</span>
+                </div>
+                <ImpactTag impact={n.impact}/>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* 지수 */}
+        <div style={{padding:"20px 20px 0", display:"grid", gridTemplateColumns:"1fr 1fr", gap:12}}>
+          {(data.indices||[]).map(idx=>(
+            <div key={idx.name} style={{borderRadius:12, padding:12, background:C.card, border:`1px solid ${C.border}`}}>
+              <p style={{fontSize:12, color:C.muted}}>{idx.name}</p>
+              <p className="mono" style={{fontSize:18, marginTop:4}}>{fmt(idx.value)}</p>
+              <ChangeTag change={idx.change}/>
+            </div>
+          ))}
+        </div>
+
+        {/* 환율 */}
+        {data.fx && (
+          <div style={{padding:"12px 20px 0"}}>
+            <div style={{borderRadius:12, padding:12, background:C.card, border:`1px solid ${C.border}`,
+              display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+              <div>
+                <p style={{fontSize:12, color:C.muted}}>{data.fx.name}</p>
+                <p className="mono" style={{fontSize:18, marginTop:4}}>{fmt(data.fx.value)}</p>
+              </div>
+              <ChangeTag change={data.fx.change}/>
+            </div>
+          </div>
+        )}
+
+        {/* 요약 */}
+        {data.summary ? (
+          <div style={{padding:"20px 20px 0"}}>
+            <Label>오늘의 요약</Label>
+            <div style={{borderRadius:12, padding:16, background:C.card, border:`1px solid ${C.border}`}}>
+              <p style={{fontSize:14, lineHeight:1.7, color:"#C7CCD3"}}>{data.summary}</p>
+            </div>
+          </div>
+        ) : null}
+
+        {/* 푸터 */}
+        <div style={{padding:"20px 20px 32px", textAlign:"center"}}>
+          <p className="mono" style={{color:C.faint, fontSize:11}}>
+            {live?"실시간 연동":"샘플 데이터"} · {data.updatedAt?new Date(data.updatedAt).toLocaleString("ko-KR"):""}
+          </p>
+          {err && <p className="mono" style={{color:C.down, fontSize:10, marginTop:4}}>불러오기 실패: {err}</p>}
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>
