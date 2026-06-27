@@ -24,7 +24,7 @@ jobs:
           python-version: "3.11"
 
       - name: 라이브러리 설치
-        run: pip install finance-datareader yfinance pykrx
+        run: pip install finance-datareader yfinance pykrx feedparser
 
       - name: 데이터 수집 실행
         run: python fetch_data.py
