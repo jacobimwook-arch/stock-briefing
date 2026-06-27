@@ -1,0 +1,154 @@
+{
+  "updatedAt": "2026-06-27T15:15:33",
+  "indices": [
+    {
+      "name": "KOSPI",
+      "value": 8411.21,
+      "change": -5.81
+    },
+    {
+      "name": "KOSDAQ",
+      "value": 851.37,
+      "change": -4.1
+    },
+    {
+      "name": "S&P 500",
+      "value": 7354.02,
+      "change": -0.05
+    },
+    {
+      "name": "NASDAQ",
+      "value": 25297.62,
+      "change": -0.24
+    }
+  ],
+  "fx": {
+    "name": "USD/KRW",
+    "value": 1535.0,
+    "change": -0.74
+  },
+  "stocks": [
+    {
+      "group": "fixed",
+      "name": "삼성전자",
+      "code": "005930",
+      "logo": "삼전",
+      "price": 339500.0,
+      "change": -5.3,
+      "prevClose": 358500.0,
+      "trend": [
+        1.0677,
+        1.0427,
+        1.0412,
+        0.9131,
+        1.0029,
+        1.056,
+        1.0
+      ],
+      "volume": 35233554,
+      "reasons": []
+    },
+    {
+      "group": "fixed",
+      "name": "SK하이닉스",
+      "code": "000660",
+      "logo": "SK",
+      "price": 2673000.0,
+      "change": -8.36,
+      "prevClose": 2917000.0,
+      "trend": [
+        1.0045,
+        1.034,
+        1.092,
+        0.9559,
+        0.9652,
+        1.0913,
+        1.0
+      ],
+      "volume": 7178319,
+      "reasons": []
+    },
+    {
+      "group": "fixed",
+      "name": "삼성전기",
+      "code": "009150",
+      "logo": "전기",
+      "price": 1993000.0,
+      "change": -0.2,
+      "prevClose": 1997000.0,
+      "trend": [
+        1.1039,
+        1.139,
+        1.1179,
+        0.9985,
+        0.9854,
+        1.002,
+        1.0
+      ],
+      "volume": 1305633,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "NVIDIA",
+      "code": "NVDA",
+      "logo": "NV",
+      "price": 192.53,
+      "change": -1.64,
+      "prevClose": 195.74,
+      "trend": [
+        1.063,
+        1.0943,
+        1.0837,
+        1.039,
+        1.0336,
+        1.0167,
+        1.0
+      ],
+      "volume": 178906300,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "Intel",
+      "code": "INTC",
+      "logo": "INTC",
+      "price": 128.32,
+      "change": -3.42,
+      "prevClose": 132.87,
+      "trend": [
+        0.9437,
+        1.0442,
+        1.0983,
+        1.0309,
+        1.026,
+        1.0355,
+        1.0
+      ],
+      "volume": 99247000,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "Micron",
+      "code": "MU",
+      "logo": "MU",
+      "price": 1132.33,
+      "change": -6.69,
+      "prevClose": 1213.56,
+      "trend": [
+        0.9213,
+        1.0015,
+        1.0698,
+        0.9289,
+        0.926,
+        1.0717,
+        1.0
+      ],
+      "volume": 86115000,
+      "reasons": []
+    }
+  ],
+  "news": [],
+  "summary": ""
+}
