@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-07T16:13:39",
+  "updatedAt": "2026-07-08T12:08:30",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 7656.31,
-      "change": -4.91
+      "value": 7246.79,
+      "change": -5.35
     },
     {
       "name": "KOSDAQ",
-      "value": 831.23,
-      "change": -1.87
+      "value": 785.0,
+      "change": -5.56
     },
     {
       "name": "S&P 500",
-      "value": 7508.4,
-      "change": -0.39
+      "value": 7503.85,
+      "change": -0.45
     },
     {
       "name": "NASDAQ",
-      "value": 25877.23,
-      "change": -0.93
+      "value": 25818.69,
+      "change": -1.16
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1514.05,
-    "change": -1.11
+    "value": 1508.08,
+    "change": -1.35
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 296000.0,
-      "change": -6.92,
-      "prevClose": 318000.0,
+      "price": 277500.0,
+      "change": -6.25,
+      "prevClose": 296000.0,
       "trend": [
-        1.0912,
-        1.1284,
-        1.0625,
-        0.9662,
-        1.0456,
-        1.0743,
+        1.2036,
+        1.1333,
+        1.0306,
+        1.1153,
+        1.1459,
+        1.0667,
         1.0
       ],
-      "volume": 31975948,
+      "volume": 33377869,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 2201000.0,
-      "change": -6.06,
-      "prevClose": 2343000.0,
+      "price": 2076000.0,
+      "change": -5.68,
+      "prevClose": 2201000.0,
       "trend": [
-        1.194,
-        1.204,
-        1.1631,
-        0.9936,
-        1.1018,
-        1.0645,
+        1.2765,
+        1.2331,
+        1.0535,
+        1.1681,
+        1.1286,
+        1.0602,
         1.0
       ],
-      "volume": 6013581,
+      "volume": 6681924,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1648000.0,
-      "change": -9.85,
-      "prevClose": 1828000.0,
+      "price": 1479000.0,
+      "change": -10.25,
+      "prevClose": 1648000.0,
       "trend": [
-        1.2367,
-        1.3252,
-        1.338,
-        1.1687,
-        1.2069,
-        1.1092,
+        1.4767,
+        1.4909,
+        1.3022,
+        1.3448,
+        1.236,
+        1.1143,
         1.0
       ],
-      "volume": 1106869,
+      "volume": 1204124,
       "reasons": []
     },
     {
@@ -93,110 +93,70 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 110.46,
-      "change": -9.61,
+      "price": 110.39,
+      "change": -9.66,
       "prevClose": 122.2,
       "trend": [
-        1.1617,
-        1.1925,
-        1.2641,
-        1.1499,
-        1.0895,
-        1.1063,
+        1.1624,
+        1.1932,
+        1.2649,
+        1.1506,
+        1.0902,
+        1.107,
         1.0
       ],
-      "volume": 74375661,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "NVIDIA",
-      "code": "NVDA",
-      "logo": "NV",
-      "price": 195.95,
-      "change": 0.2,
-      "prevClose": 195.55,
-      "trend": [
-        0.9825,
-        0.995,
-        1.0211,
-        1.0083,
-        0.9943,
-        0.998,
-        1.0
-      ],
-      "volume": 55114656,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "Micron",
-      "code": "MU",
-      "logo": "MU",
-      "price": 926.22,
-      "change": -5.94,
-      "prevClose": 984.75,
-      "trend": [
-        1.2223,
-        1.2363,
-        1.246,
-        1.1143,
-        1.0531,
-        1.0632,
-        1.0
-      ],
-      "volume": 29672949,
+      "volume": 139801400,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "온통 파란 주식창 \"안 보려고 해요\"‥'반도체 비중 축소' 권고 나왔다",
+      "text": "엔비디아의 나라에 없는 반도체 공장… 美 반도체 부활 가로막은 ‘30년 공백’",
       "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 10:51:36 GMT"
+      "published": "Wed, 08 Jul 2026 08:54:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "삼성전자 최대 실적 발표 날... 코스피 8% 폭락, 매매 정지",
+      "text": "코스피·코스닥 ‘5% 급락’ 잇단 매도 사이드카…이틀째 폭락",
       "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 06:59:00 GMT"
+      "published": "Wed, 08 Jul 2026 11:10:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "'반도체 저승사자' 또 등판…\"삼전닉스 고점 근접\" 경고",
+      "text": "코스피·코스닥서 잇단 매도 사이드카‥오후 들어 낙폭 키워",
       "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 13:07:00 GMT"
+      "published": "Wed, 08 Jul 2026 05:31:54 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피 8%대 폭락에 서킷브레이커 발동…'삼전닉스'도 10% 가까이 급락",
+      "text": "\"삼전 -6%, 더 빠진다\" 증시 주르륵...코스피·코스닥 '매도 사이드카'",
       "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 05:03:34 GMT"
+      "published": "Wed, 08 Jul 2026 04:54:35 GMT"
     },
     {
       "tag": "미국",
-      "text": "\"고민하는 순간 기회 놓친다\"…하이닉스, 나스닥 상장 앞두고 목표가 또 상향",
+      "text": "스페이스X, 나스닥100 편입날 6.8% 급락… 우주株·ETF ‘동반 추락’",
       "impact": "neutral",
-      "published": "Mon, 06 Jul 2026 23:00:53 GMT"
+      "published": "Wed, 08 Jul 2026 04:56:24 GMT"
     },
     {
       "tag": "미국",
-      "text": "삼성 2분기 영업익 89.4조...엔비디아 넘어 세계 1위",
+      "text": "중국 AI 칩 '脫엔비디아'…화웨이, 엔비디아 제쳤다",
       "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 12:50:00 GMT"
+      "published": "Wed, 08 Jul 2026 04:19:32 GMT"
     },
     {
       "tag": "미국",
-      "text": "삼성전자 2분기 영업이익 또 ‘사상최대’…엔비디아 넘었다",
-      "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 12:01:00 GMT"
+      "text": "옵션시장서 엔비디아 '강세 베팅'…반도체주 급락에도 콜옵션 집중",
+      "impact": "pos",
+      "published": "Tue, 07 Jul 2026 22:51:09 GMT"
     },
     {
       "tag": "미국",
-      "text": "[미국 주식 돋보기] AI 뒤처졌던 애플의 역설 … 다시 시총 1위 넘본다",
+      "text": "엔비디아 못 쓰니 자체 개발?…\"중국 딥시크, AI 칩 만든다\"",
       "impact": "neutral",
-      "published": "Tue, 07 Jul 2026 08:57:54 GMT"
+      "published": "Wed, 08 Jul 2026 05:27:00 GMT"
     },
     {
       "tag": "전쟁",
