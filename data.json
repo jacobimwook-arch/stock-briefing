@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-15T12:06:30",
+  "updatedAt": "2026-07-16T12:11:14",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 7284.41,
-      "change": 6.24
+      "value": 6820.6,
+      "change": -6.37
     },
     {
       "name": "KOSDAQ",
-      "value": 829.43,
-      "change": 5.8
+      "value": 791.84,
+      "change": -4.53
     },
     {
       "name": "S&P 500",
-      "value": 7515.34,
-      "change": -0.79
+      "value": 7572.4,
+      "change": 0.38
     },
     {
       "name": "NASDAQ",
-      "value": 25873.18,
-      "change": -1.55
+      "value": 26269.23,
+      "change": 0.62
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1493.8,
-    "change": -0.26
+    "value": 1479.23,
+    "change": -0.58
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 279500.0,
-      "change": 6.27,
-      "prevClose": 263000.0,
+      "price": 255000.0,
+      "change": -8.77,
+      "prevClose": 279500.0,
       "trend": [
-        1.059,
-        0.9928,
-        0.9946,
-        1.0197,
-        0.9106,
-        0.941,
+        1.0882,
+        1.0902,
+        1.1176,
+        0.998,
+        1.0314,
+        1.0961,
         1.0
       ],
-      "volume": 24247831,
+      "volume": 26605948,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 2082000.0,
-      "change": 8.83,
-      "prevClose": 1913000.0,
+      "price": 1842000.0,
+      "change": -11.53,
+      "prevClose": 2082000.0,
       "trend": [
-        1.0572,
-        0.9971,
-        1.05,
-        1.0471,
-        0.8862,
-        0.9188,
+        1.127,
+        1.1868,
+        1.1835,
+        1.0016,
+        1.0385,
+        1.1303,
         1.0
       ],
-      "volume": 5947608,
+      "volume": 5524726,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1413000.0,
-      "change": 12.14,
-      "prevClose": 1260000.0,
+      "price": 1277000.0,
+      "change": -9.62,
+      "prevClose": 1413000.0,
       "trend": [
-        1.1663,
-        1.0467,
-        1.0566,
-        1.121,
-        0.9122,
-        0.8917,
+        1.1582,
+        1.1691,
+        1.2404,
+        1.0094,
+        0.9867,
+        1.1065,
         1.0
       ],
-      "volume": 942313,
+      "volume": 610491,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 203.53,
-      "change": -3.52,
-      "prevClose": 210.96,
+      "price": 212.5,
+      "change": 0.33,
+      "prevClose": 211.8,
       "trend": [
-        0.9573,
-        0.9608,
-        0.9676,
-        1.0029,
-        0.9963,
-        1.0365,
+        0.9267,
+        0.9606,
+        0.9543,
+        0.9928,
+        0.9578,
+        0.9967,
         1.0
       ],
-      "volume": 121411000,
+      "volume": 124482600,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 103.12,
-      "change": -6.12,
-      "prevClose": 109.84,
+      "price": 102.99,
+      "change": -4.43,
+      "prevClose": 107.76,
       "trend": [
-        1.1671,
-        1.185,
-        1.0705,
-        1.069,
-        1.0913,
-        1.0652,
+        1.0719,
+        1.0704,
+        1.0927,
+        1.0665,
+        1.0013,
+        1.0463,
         1.0
       ],
-      "volume": 100988800,
+      "volume": 120232900,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 937.0,
-      "change": -4.32,
-      "prevClose": 979.3,
+      "price": 904.28,
+      "change": -8.02,
+      "prevClose": 983.12,
       "trend": [
-        1.041,
-        1.051,
-        1.0015,
-        1.0126,
-        1.0583,
-        1.0451,
+        1.0377,
+        1.0492,
+        1.0966,
+        1.083,
+        1.0362,
+        1.0872,
         1.0
       ],
-      "volume": 35536200,
+      "volume": 54398100,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 6.24%↑ '7천피' 탈환…외국인 2.3조원 '폭풍' 매수(종합)",
+      "text": "코스피, 6%대 급락 6,800대 후퇴…하루 만에 7,000선 내줘(종합)",
       "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 07:37:06 GMT"
+      "published": "Thu, 16 Jul 2026 07:26:10 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피 급반등...반도체 투자심리 살아날까",
+      "text": "반도체 투매에 코스피 6800선 붕괴",
       "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 06:56:29 GMT"
+      "published": "Thu, 16 Jul 2026 07:43:14 GMT"
     },
     {
       "tag": "한국",
-      "text": "젠슨 황 “SK하이닉스 ADR, 믿을 수 없을 정도로 성공적”",
+      "text": "삼전닉스 당분간 걱정없다? 올해 세계 반도체 매출 사상 최초 1조달러 예상",
       "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 10:55:00 GMT"
+      "published": "Wed, 15 Jul 2026 20:34:50 GMT"
     },
     {
       "tag": "한국",
-      "text": "[집중취재] SK하이닉스 '역김치 프리미엄' 현실화…AI 반도체 랠리 계속될까",
+      "text": "[이슈플러스] '검은 목요일' 코스피 다시 7천선 아래로...단일종목 레버리지 '제동'",
       "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 08:28:55 GMT"
+      "published": "Thu, 16 Jul 2026 10:31:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "SK 하이닉스 ADR, 나스닥에서 27.29% 폭등 마감",
-      "impact": "neutral",
-      "published": "Tue, 14 Jul 2026 20:29:00 GMT"
+      "text": "엔비디아, 토요타·소프트뱅크와 AI 협력 확대…금융·양자까지",
+      "impact": "pos",
+      "published": "Thu, 16 Jul 2026 06:53:43 GMT"
     },
     {
       "tag": "미국",
-      "text": "뉴욕증시, 물가우려 완화 속 반도체 랠리…나스닥 1%↑",
-      "impact": "neg",
-      "published": "Tue, 14 Jul 2026 20:49:00 GMT"
+      "text": "뉴욕증시 물가 둔화·빅테크 강세에 상승…나스닥 0.6%",
+      "impact": "pos",
+      "published": "Wed, 15 Jul 2026 21:05:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "어드밴텍, 엔비디아와 손잡고 산업·가사 로봇 안전망 구축한다",
+      "text": "일본 정부, 엔비디아 ‘루빈’ 2만 7천 장 확보…국산 AI 위해 기업 44곳 연합",
       "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 06:30:20 GMT"
+      "published": "Thu, 16 Jul 2026 11:10:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "젠슨 황 \"SK하이닉스 나스닥 상장, 믿을 수 없을 만큼 성공적\" 극찬",
+      "text": "Weverse Magazine",
       "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 10:57:05 GMT"
+      "published": "Thu, 16 Jul 2026 04:59:55 GMT"
     },
     {
       "tag": "전쟁",
