@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T12:11:14",
+  "updatedAt": "2026-07-17T11:55:04",
   "indices": [
     {
       "name": "KOSPI",
@@ -13,19 +13,19 @@
     },
     {
       "name": "S&P 500",
-      "value": 7572.4,
-      "change": 0.38
+      "value": 7533.77,
+      "change": -0.51
     },
     {
       "name": "NASDAQ",
-      "value": 26269.23,
-      "change": 0.62
+      "value": 25881.95,
+      "change": -1.47
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1479.23,
-    "change": -0.58
+    "value": 1484.79,
+    "change": -0.09
   },
   "stocks": [
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 212.5,
-      "change": 0.33,
-      "prevClose": 211.8,
+      "price": 207.4,
+      "change": -2.4,
+      "prevClose": 212.5,
       "trend": [
-        0.9267,
-        0.9606,
-        0.9543,
-        0.9928,
-        0.9578,
-        0.9967,
+        0.9842,
+        0.9777,
+        1.0172,
+        0.9813,
+        1.0212,
+        1.0246,
         1.0
       ],
-      "volume": 124482600,
+      "volume": 122377500,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 102.99,
-      "change": -4.43,
-      "prevClose": 107.76,
+      "price": 96.98,
+      "change": -5.84,
+      "prevClose": 102.99,
       "trend": [
-        1.0719,
-        1.0704,
-        1.0927,
-        1.0665,
-        1.0013,
-        1.0463,
+        1.1367,
+        1.1604,
+        1.1326,
+        1.0633,
+        1.1112,
+        1.062,
         1.0
       ],
-      "volume": 120232900,
+      "volume": 106938500,
       "reasons": []
     },
     {
@@ -133,82 +133,82 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 904.28,
-      "change": -8.02,
-      "prevClose": 983.12,
+      "price": 853.2,
+      "change": -5.65,
+      "prevClose": 904.28,
       "trend": [
-        1.0377,
-        1.0492,
-        1.0966,
-        1.083,
-        1.0362,
-        1.0872,
+        1.112,
+        1.1623,
+        1.1478,
+        1.0982,
+        1.1523,
+        1.0599,
         1.0
       ],
-      "volume": 54398100,
+      "volume": 45957500,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 6%대 급락 6,800대 후퇴…하루 만에 7,000선 내줘(종합)",
-      "impact": "neutral",
-      "published": "Thu, 16 Jul 2026 07:26:10 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "반도체 투매에 코스피 6800선 붕괴",
-      "impact": "neutral",
-      "published": "Thu, 16 Jul 2026 07:43:14 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "삼전닉스 당분간 걱정없다? 올해 세계 반도체 매출 사상 최초 1조달러 예상",
-      "impact": "neutral",
-      "published": "Wed, 15 Jul 2026 20:34:50 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "[이슈플러스] '검은 목요일' 코스피 다시 7천선 아래로...단일종목 레버리지 '제동'",
-      "impact": "neutral",
-      "published": "Thu, 16 Jul 2026 10:31:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "엔비디아, 토요타·소프트뱅크와 AI 협력 확대…금융·양자까지",
-      "impact": "pos",
-      "published": "Thu, 16 Jul 2026 06:53:43 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "뉴욕증시 물가 둔화·빅테크 강세에 상승…나스닥 0.6%",
-      "impact": "pos",
-      "published": "Wed, 15 Jul 2026 21:05:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "일본 정부, 엔비디아 ‘루빈’ 2만 7천 장 확보…국산 AI 위해 기업 44곳 연합",
-      "impact": "neutral",
-      "published": "Thu, 16 Jul 2026 11:10:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "Weverse Magazine",
-      "impact": "neutral",
-      "published": "Thu, 16 Jul 2026 04:59:55 GMT"
-    },
-    {
-      "tag": "전쟁",
-      "text": "[외신동향] 호르무즈 다시 흔들리자 유가 급등…중동발 긴장이 세계 경제 덮쳐",
+      "text": "SK하이닉스 ADR 이틀 새 21% 급락…고개 드는 반도체 ‘피크아웃’ 우려",
       "impact": "neg",
-      "published": "Mon, 13 Jul 2026 06:32:19 GMT"
+      "published": "Fri, 17 Jul 2026 00:26:41 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락",
+      "impact": "neutral",
+      "published": "Thu, 16 Jul 2026 21:02:26 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "“하이닉스 팔지 말라”는 최태원…日 반도체 대장주 ‘하한가’ [내가샀다]",
+      "impact": "neutral",
+      "published": "Fri, 17 Jul 2026 09:17:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "“노후자금 다 날렸다…코스피가 도박판” [잇슈 머니]",
+      "impact": "neutral",
+      "published": "Thu, 16 Jul 2026 23:10:00 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "BlossomHill Therapeutics, 나스닥 IPO 신청… 티커 BLSM",
+      "impact": "neutral",
+      "published": "Fri, 17 Jul 2026 10:16:00 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "피타늄, 나스닥 상장폐지 결정..SEC 거래중단 후속조치",
+      "impact": "neutral",
+      "published": "Fri, 17 Jul 2026 10:03:40 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "뉴욕증시, AI 반도체주 매도에 하락…나스닥 1.5%↓",
+      "impact": "neg",
+      "published": "Thu, 16 Jul 2026 20:11:42 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "제퍼슨 연준 부의장 \"현 통화정책 적절한 위치\"",
+      "impact": "neutral",
+      "published": "Fri, 17 Jul 2026 05:04:00 GMT"
     },
     {
       "tag": "전쟁",
-      "text": "미국, 일주일 새 이란 4차례 공습…호르무즈 분쟁에 유가 4% 급등",
-      "impact": "neutral",
-      "published": "Mon, 13 Jul 2026 05:45:00 GMT"
+      "text": "‘두 개 전쟁’ 격화에 유가·곡물발 인플레 우려 재부상",
+      "impact": "neg",
+      "published": "Fri, 17 Jul 2026 03:25:45 GMT"
+    },
+    {
+      "tag": "전쟁",
+      "text": "중동 지역의 분쟁으로 인해 이번 주 유가가 거의 12% 상승했습니다.",
+      "impact": "pos",
+      "published": "Fri, 17 Jul 2026 10:08:04 GMT"
     }
   ],
   "summary": ""
