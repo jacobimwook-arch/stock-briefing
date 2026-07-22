@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-07-21T12:14:35",
+  "updatedAt": "2026-07-22T12:18:36",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6747.95,
-      "change": 3.56
+      "value": 6797.7,
+      "change": 0.74
     },
     {
       "name": "KOSDAQ",
-      "value": 753.34,
-      "change": 0.49
+      "value": 751.09,
+      "change": -0.3
     },
     {
       "name": "S&P 500",
-      "value": 7443.28,
-      "change": -0.19
+      "value": 7509.2,
+      "change": 0.89
     },
     {
       "name": "NASDAQ",
-      "value": 25508.07,
-      "change": -0.05
+      "value": 25837.21,
+      "change": 1.29
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1478.32,
-    "change": -0.61
+    "value": 1479.2,
+    "change": 0.28
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 259000.0,
-      "change": 6.15,
-      "prevClose": 244000.0,
+      "price": 260500.0,
+      "change": 0.58,
+      "prevClose": 259000.0,
       "trend": [
-        1.1004,
-        0.9826,
-        1.0154,
-        1.0792,
-        0.9846,
-        0.9421,
+        0.977,
+        1.0096,
+        1.0729,
+        0.9789,
+        0.9367,
+        0.9942,
         1.0
       ],
-      "volume": 20358404,
+      "volume": 21249029,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1836000.0,
-      "change": 4.08,
-      "prevClose": 1764000.0,
+      "price": 1830000.0,
+      "change": -0.33,
+      "prevClose": 1836000.0,
       "trend": [
-        1.1874,
-        1.0049,
-        1.0419,
-        1.134,
+        1.0082,
+        1.0454,
+        1.1377,
+        1.0066,
+        0.9639,
         1.0033,
-        0.9608,
         1.0
       ],
-      "volume": 4593781,
+      "volume": 4762602,
       "reasons": []
     },
     {
@@ -73,39 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1310000.0,
-      "change": 2.75,
-      "prevClose": 1275000.0,
+      "price": 1345000.0,
+      "change": 2.67,
+      "prevClose": 1310000.0,
       "trend": [
-        1.2092,
-        0.984,
-        0.9618,
-        1.0786,
-        0.9748,
-        0.9733,
+        0.9584,
+        0.9368,
+        1.0506,
+        0.9494,
+        0.948,
+        0.974,
         1.0
       ],
-      "volume": 649462,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "Intel",
-      "code": "INTC",
-      "logo": "INTC",
-      "price": 97.06,
-      "change": 2.13,
-      "prevClose": 95.04,
-      "trend": [
-        1.1317,
-        1.0624,
-        1.1102,
-        1.0611,
-        0.9992,
-        0.9792,
-        1.0
-      ],
-      "volume": 89425800,
+      "volume": 787083,
       "reasons": []
     },
     {
@@ -113,19 +93,39 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 203.28,
-      "change": 0.23,
-      "prevClose": 202.81,
+      "price": 207.29,
+      "change": 1.97,
+      "prevClose": 203.28,
       "trend": [
-        1.0378,
-        1.0012,
-        1.0419,
-        1.0454,
-        1.0203,
-        0.9977,
+        0.9819,
+        1.0218,
+        1.0251,
+        1.0005,
+        0.9784,
+        0.9807,
         1.0
       ],
-      "volume": 88489800,
+      "volume": 108426500,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "Intel",
+      "code": "INTC",
+      "logo": "INTC",
+      "price": 105.45,
+      "change": 8.64,
+      "prevClose": 97.06,
+      "trend": [
+        0.9779,
+        1.0219,
+        0.9767,
+        0.9197,
+        0.9013,
+        0.9204,
+        1.0
+      ],
+      "volume": 104960600,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 865.46,
-      "change": 1.94,
-      "prevClose": 848.95,
+      "price": 970.82,
+      "change": 12.17,
+      "prevClose": 865.46,
       "trend": [
-        1.1315,
-        1.0827,
-        1.136,
-        1.0449,
-        0.9858,
-        0.9809,
+        0.9652,
+        1.0127,
+        0.9315,
+        0.8788,
+        0.8745,
+        0.8915,
         1.0
       ],
-      "volume": 37486400,
+      "volume": 49024700,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "메모리 반도체 3사, 'HBM4 수율' 경쟁 점화…하반기 수익 판가름",
+      "text": "코스피, 알파벳 실적 앞두고 경계에 '전강후약'…6,797서 마감(종합)",
       "impact": "neutral",
-      "published": "Tue, 21 Jul 2026 07:30:00 GMT"
+      "published": "Wed, 22 Jul 2026 07:14:03 GMT"
     },
     {
       "tag": "한국",
-      "text": "6000 바닥 전망까지 나와... 코스피 ‘포모’가 ‘조모’됐다",
-      "impact": "neutral",
-      "published": "Tue, 21 Jul 2026 01:41:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "'삼전·닉스' 급등에 코스피 3.6%↑...매수 사이드카도 발동",
-      "impact": "neutral",
-      "published": "Tue, 21 Jul 2026 09:08:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "코스피, 6,700선 회복…반도체 투톱 상승",
+      "text": "코스피, 0.74% 오른 6797.7로 마감...개인, 기관 매수세에 오전 상승분 반납",
       "impact": "pos",
-      "published": "Tue, 21 Jul 2026 09:29:00 GMT"
+      "published": "Wed, 22 Jul 2026 06:53:18 GMT"
     },
     {
-      "tag": "미국",
-      "text": "‘日과 기술 파트너십’ 엔비디아, 에지 AI부터 디지털 트윈까지...피지컬 AI 연합 결성",
+      "tag": "한국",
+      "text": "'매수 사이드카' 발동에도 코스피, 발목 잡힌 배경은",
       "impact": "neutral",
-      "published": "Tue, 21 Jul 2026 04:42:31 GMT"
+      "published": "Wed, 22 Jul 2026 07:11:27 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "'전강후약' 코스피...7,100 돌파 후 6,700대로 하락",
+      "impact": "neg",
+      "published": "Wed, 22 Jul 2026 09:22:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아 독주에 제동 건 AMD, 삼성전자·SK하이닉스 HBM4 ‘큰손’으로 부상",
+      "text": "엔비디아, 'GB300 NVL72'로 MoE 모델 사전학습 성능 3배 향상",
       "impact": "neutral",
-      "published": "Mon, 20 Jul 2026 21:05:07 GMT"
+      "published": "Wed, 22 Jul 2026 09:09:56 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, ‘코스모스 3 엣지’ 공개… 엣지 디바이스에서 피지컬 AI 구현",
-      "impact": "neutral",
-      "published": "Tue, 21 Jul 2026 08:20:30 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "BMS, 엔비디아와 AI 협력 확대…“생명과학 최강 AI 팩토리 구축”",
+      "text": "뉴욕증시, 유가 상승에도 반도체주 반등에 강세…나스닥 1.3%↑(종합)",
       "impact": "pos",
-      "published": "Tue, 21 Jul 2026 02:59:00 GMT"
+      "published": "Tue, 21 Jul 2026 21:05:11 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "[AI 고속도로] 엔비디아, 베라 루빈 양산에 \"AI 서버 경쟁판 바뀐다\"",
+      "impact": "pos",
+      "published": "Wed, 22 Jul 2026 06:46:35 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "AMD, MS와 손잡고 AI랙 시장 도전…엔비디아 독점구도 흔든다",
+      "impact": "neutral",
+      "published": "Wed, 22 Jul 2026 10:31:02 GMT"
     },
     {
       "tag": "전쟁",
