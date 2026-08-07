@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-08-06T09:45:21",
+  "updatedAt": "2026-08-07T08:19:17",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6296.38,
-      "change": -4.58
+      "value": 6258.77,
+      "change": -0.6
     },
     {
       "name": "KOSDAQ",
-      "value": 801.67,
-      "change": 0.26
+      "value": 798.81,
+      "change": -0.36
     },
     {
       "name": "S&P 500",
-      "value": 7723.55,
-      "change": -0.17
+      "value": 7709.96,
+      "change": -0.18
     },
     {
       "name": "NASDAQ",
-      "value": 26363.44,
-      "change": -0.83
+      "value": 26348.35,
+      "change": -0.06
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1428.31,
-    "change": -0.01
+    "value": 1417.65,
+    "change": -0.25
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 230500.0,
-      "change": -6.3,
-      "prevClose": 246000.0,
+      "price": 231000.0,
+      "change": 0.22,
+      "prevClose": 230500.0,
       "trend": [
-        0.9046,
-        0.898,
-        1.1388,
+        0.8961,
+        1.1364,
+        1.0368,
         1.039,
-        1.0412,
-        1.0672,
+        1.0649,
+        0.9978,
         1.0
       ],
-      "volume": 26095404,
+      "volume": 20424708,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1495000.0,
-      "change": -10.37,
-      "prevClose": 1668000.0,
+      "price": 1422000.0,
+      "change": -4.88,
+      "prevClose": 1495000.0,
       "trend": [
-        0.9371,
-        0.8843,
-        1.1492,
-        1.0482,
-        1.0548,
-        1.1157,
+        0.9297,
+        1.2082,
+        1.102,
+        1.109,
+        1.173,
+        1.0513,
         1.0
       ],
-      "volume": 5295745,
+      "volume": 4796937,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1229000.0,
-      "change": -9.37,
-      "prevClose": 1356000.0,
+      "price": 1278000.0,
+      "change": 3.99,
+      "prevClose": 1229000.0,
       "trend": [
-        0.8373,
-        0.7152,
-        0.9292,
-        0.9609,
-        0.9642,
-        1.1033,
+        0.6878,
+        0.8936,
+        0.9241,
+        0.9272,
+        1.061,
+        0.9617,
         1.0
       ],
-      "volume": 971841,
+      "volume": 894867,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 219.22,
-      "change": 3.43,
-      "prevClose": 211.94,
+      "price": 218.99,
+      "change": -0.1,
+      "prevClose": 219.22,
       "trend": [
-        0.8987,
-        0.8668,
-        0.8897,
-        0.9157,
-        0.9426,
-        0.9668,
+        0.8677,
+        0.8906,
+        0.9167,
+        0.9436,
+        0.9678,
+        1.0011,
         1.0
       ],
-      "volume": 157555300,
+      "volume": 113686000,
       "reasons": []
     },
     {
@@ -113,90 +113,90 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 101.06,
-      "change": 0.2,
-      "prevClose": 100.86,
+      "price": 99.81,
+      "change": -1.24,
+      "prevClose": 101.06,
       "trend": [
-        0.8539,
-        0.8102,
-        0.9017,
-        0.8925,
-        0.9005,
-        0.998,
+        0.8204,
+        0.913,
+        0.9037,
+        0.9117,
+        1.0105,
+        1.0125,
         1.0
       ],
-      "volume": 84988100,
+      "volume": 77852800,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "AMD",
-      "code": "AMD",
-      "logo": "AMD",
-      "price": 482.05,
-      "change": -7.04,
-      "prevClose": 518.58,
+      "name": "Micron",
+      "code": "MU",
+      "logo": "MU",
+      "price": 881.47,
+      "change": -1.31,
+      "prevClose": 893.19,
       "trend": [
-        0.9431,
-        0.8911,
-        1.0069,
-        0.9878,
-        1.0054,
-        1.0758,
+        0.8384,
+        0.9923,
+        0.9337,
+        0.941,
+        1.0127,
+        1.0133,
         1.0
       ],
-      "volume": 49458300,
+      "volume": 35611000,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "삼성전자 6%↓·SK하이닉스 10%↓‥반도체주 급락에 코스피 4% 넘게 하락 마감",
-      "impact": "neg",
-      "published": "Thu, 06 Aug 2026 06:52:45 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "골드만삭스 \"코스피 급락 과도...목표치 1만2000 유지″",
+      "text": "SK하이닉스, 용인·청주 신규 팹에 54조 3천억 원 투자",
       "impact": "neutral",
-      "published": "Thu, 06 Aug 2026 06:58:52 GMT"
+      "published": "Fri, 07 Aug 2026 07:29:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피, 4.6% 급락 6,200대 마감…코스닥 닷새째 상승(종합)",
+      "text": "SK하이닉스, 청주·용인에 54조 투자…\"중장기 생산기반 확보\"(상보)",
+      "impact": "neutral",
+      "published": "Fri, 07 Aug 2026 07:38:47 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "코스피 1% 반등 출발했지만 상승세는 크지 않아‥코스닥은 엿새째 상승",
       "impact": "pos",
-      "published": "Thu, 06 Aug 2026 07:06:48 GMT"
+      "published": "Fri, 07 Aug 2026 00:32:43 GMT"
     },
     {
       "tag": "한국",
-      "text": "한미반도체 폭등 맞힌 100억男 “다음 텐배거? 힌트 다 나왔다”",
+      "text": "SK하이닉스, 용인 Y2·청주 M17에 54조 원 투자",
       "impact": "neutral",
-      "published": "Thu, 06 Aug 2026 08:01:35 GMT"
+      "published": "Fri, 07 Aug 2026 07:31:37 GMT"
     },
     {
       "tag": "미국",
-      "text": "뉴욕증시, 4거래일 랠리 마치고 ’숨고르기’…나스닥 0.8%↓",
-      "impact": "neutral",
-      "published": "Wed, 05 Aug 2026 21:28:00 GMT"
+      "text": "워시, 시장 혼란에도 ‘조용한 연준’ 고수…계속 상승하는 美 국채 금리",
+      "impact": "pos",
+      "published": "Fri, 07 Aug 2026 06:50:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "전 세계 AI 모델 92% 엔비디아 의존...한국은 '탈엔비디아' 시도",
+      "text": "엔비디아 동반자 네이버 \"내년 ‘AI 팩토리’ 수익 가시화\" 자신",
       "impact": "neutral",
-      "published": "Thu, 06 Aug 2026 01:12:00 GMT"
+      "published": "Fri, 07 Aug 2026 06:43:50 GMT"
     },
     {
       "tag": "미국",
-      "text": "세계 각국 소버린 AI 추진하면서, AI 칩은 여전히 엔비디아에 종속",
+      "text": "[AI픽] 네이버, 엔비디아 업고 AI 인프라 기업 도약할까",
       "impact": "neutral",
-      "published": "Thu, 06 Aug 2026 06:10:00 GMT"
+      "published": "Fri, 07 Aug 2026 02:20:42 GMT"
     },
     {
       "tag": "미국",
-      "text": "어드밴텍, 엔비디아 젯슨 토르 전 라인업 지원 엣지AI 포트폴리오 완성",
+      "text": "리얼월드, 국내 3사와 엔비디아 '아이작' 벤치마크 고도화 나선다",
       "impact": "neutral",
-      "published": "Wed, 05 Aug 2026 23:39:21 GMT"
+      "published": "Fri, 07 Aug 2026 03:41:05 GMT"
     },
     {
       "tag": "전쟁",
@@ -206,9 +206,9 @@
     },
     {
       "tag": "전쟁",
-      "text": "[뉴욕유가] 출구 없는 중동 분쟁 장기화…WTI 1.3%↑",
+      "text": "호르무즈 해협 재개방 기대에 국제유가 약세…WTI 75달러선 접근",
       "impact": "neutral",
-      "published": "Fri, 31 Jul 2026 20:04:36 GMT"
+      "published": "Tue, 04 Aug 2026 23:08:10 GMT"
     }
   ],
   "summary": ""
