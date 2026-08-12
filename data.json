@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-08-11T08:13:06",
+  "updatedAt": "2026-08-12T08:24:41",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6345.53,
-      "change": 0.73
+      "value": 6579.04,
+      "change": 3.68
     },
     {
       "name": "KOSDAQ",
-      "value": 857.84,
-      "change": 0.39
+      "value": 858.91,
+      "change": 0.12
     },
     {
       "name": "S&P 500",
-      "value": 7753.11,
-      "change": -0.06
+      "value": 7728.2,
+      "change": -0.32
     },
     {
       "name": "NASDAQ",
-      "value": 26605.36,
-      "change": -0.32
+      "value": 26445.45,
+      "change": -0.6
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1417.04,
-    "change": 0.71
+    "value": 1416.63,
+    "change": -0.05
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 239500.0,
-      "change": 4.13,
-      "prevClose": 230000.0,
+      "price": 255500.0,
+      "change": 6.68,
+      "prevClose": 239500.0,
       "trend": [
-        1.0,
-        1.0021,
-        1.0271,
-        0.9624,
-        0.9645,
-        0.9603,
+        0.9393,
+        0.9628,
+        0.9022,
+        0.9041,
+        0.9002,
+        0.9374,
         1.0
       ],
-      "volume": 23197807,
+      "volume": 27102479,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1425000.0,
-      "change": 0.35,
-      "prevClose": 1420000.0,
+      "price": 1504000.0,
+      "change": 5.54,
+      "prevClose": 1425000.0,
       "trend": [
-        1.0996,
-        1.1067,
-        1.1705,
-        1.0491,
-        0.9979,
-        0.9965,
+        1.0485,
+        1.109,
+        0.994,
+        0.9455,
+        0.9441,
+        0.9475,
         1.0
       ],
-      "volume": 3682655,
+      "volume": 4204301,
       "reasons": []
     },
     {
@@ -73,39 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1262000.0,
-      "change": -0.94,
-      "prevClose": 1274000.0,
+      "price": 1335000.0,
+      "change": 5.78,
+      "prevClose": 1262000.0,
       "trend": [
-        0.9358,
-        0.939,
-        1.0745,
-        0.9739,
-        1.0127,
-        1.0095,
+        0.8876,
+        1.0157,
+        0.9206,
+        0.9573,
+        0.9543,
+        0.9453,
         1.0
       ],
-      "volume": 724733,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "NVIDIA",
-      "code": "NVDA",
-      "logo": "NV",
-      "price": 217.55,
-      "change": -2.86,
-      "prevClose": 223.96,
-      "trend": [
-        0.9228,
-        0.9499,
-        0.9742,
-        1.0077,
-        1.0066,
-        1.0295,
-        1.0
-      ],
-      "volume": 115521800,
+      "volume": 701680,
       "reasons": []
     },
     {
@@ -113,19 +93,39 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 97.52,
-      "change": -4.06,
-      "prevClose": 101.65,
+      "price": 97.71,
+      "change": 0.19,
+      "prevClose": 97.52,
       "trend": [
-        0.9249,
-        0.9331,
-        1.0342,
-        1.0363,
-        1.0235,
-        1.0424,
+        0.9313,
+        1.0322,
+        1.0343,
+        1.0215,
+        1.0403,
+        0.9981,
         1.0
       ],
-      "volume": 100796300,
+      "volume": 163758700,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "NVIDIA",
+      "code": "NVDA",
+      "logo": "NV",
+      "price": 217.5,
+      "change": -0.02,
+      "prevClose": 217.55,
+      "trend": [
+        0.9501,
+        0.9744,
+        1.0079,
+        1.0069,
+        1.0297,
+        1.0002,
+        1.0
+      ],
+      "volume": 100991600,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 861.0,
-      "change": -1.89,
-      "prevClose": 877.57,
+      "price": 868.52,
+      "change": 0.87,
+      "prevClose": 861.0,
       "trend": [
-        0.9559,
-        0.9634,
-        1.0368,
-        1.0374,
-        1.0238,
-        1.0192,
+        0.9551,
+        1.0278,
+        1.0284,
+        1.0149,
+        1.0104,
+        0.9913,
         1.0
       ],
-      "volume": 27664000,
+      "volume": 29340500,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "'삼전닉스보다 낫다'…유망 반도체 중소형주 12종은?",
+      "text": "AI 반도체 덮친 ‘금리 5% 공포’…삼성전자·SK하이닉스 새 복병 By EBN",
       "impact": "neutral",
-      "published": "Tue, 11 Aug 2026 04:49:02 GMT"
+      "published": "Tue, 11 Aug 2026 23:12:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "101% 폭등 뒤 22% 급락…“반도체 대박은 끝, 이 종목 사라”",
+      "text": "[단독] “한 달 걸릴 설계·검증 이틀로 단축”… 삼성전자 반도체, 앤트로픽 ‘클로드’ 투입해 성과",
       "impact": "neutral",
-      "published": "Mon, 10 Aug 2026 20:00:02 GMT"
+      "published": "Wed, 12 Aug 2026 05:08:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피·코스닥, 이틀 연속 상승 마감…반도체 수출 모멘텀에 삼전 4%대 ‘훨훨’ [코주부]",
-      "impact": "pos",
-      "published": "Tue, 11 Aug 2026 07:12:56 GMT"
+      "text": "고립이 키운 ‘자립력’…중국 반도체의 초고속 성장 비결",
+      "impact": "neutral",
+      "published": "Wed, 12 Aug 2026 07:52:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "與 메가 특위, 용인 반도체 찾아 “조기 완공 전폭 지원”",
+      "text": "[단독] 이창용 “반도체 10년 호황 장담 못해…반도체 착시 경계해야”",
       "impact": "neutral",
-      "published": "Tue, 11 Aug 2026 06:03:28 GMT"
+      "published": "Tue, 11 Aug 2026 20:00:01 GMT"
     },
     {
       "tag": "미국",
-      "text": "미국 증시 약보합에 코스피, 1%가량 하락 출발",
+      "text": "'하락장은 매수 기회'…돈나무 언니, 엔비디아·브로드컴 저가 매수",
       "impact": "neg",
-      "published": "Tue, 11 Aug 2026 00:51:00 GMT"
+      "published": "Wed, 12 Aug 2026 05:41:52 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 월가 투자사 6곳과 AI 인프라 투자 확대… 5000억달러 조성",
-      "impact": "pos",
-      "published": "Tue, 11 Aug 2026 05:27:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "삼성전자, 엔비디아 주도 글로벌 AI 보안 연합체 합류",
+      "text": "엔비디아, 블랙록·KKR 등 월가 자본 조달 추진…700兆 컴퓨팅 금융 구축",
       "impact": "neutral",
-      "published": "Tue, 11 Aug 2026 04:40:56 GMT"
+      "published": "Wed, 12 Aug 2026 02:10:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "'시총 1조' 나스닥 상장사도 \"코스닥 갈래요\"…신뢰 회복 신호탄 될까",
-      "impact": "pos",
-      "published": "Tue, 11 Aug 2026 07:07:59 GMT"
+      "text": "“2007년 금융위기 데자뷔?”…엔비디아·월가, AI까지 ‘증권화’ [이슈+]",
+      "impact": "neutral",
+      "published": "Wed, 12 Aug 2026 06:35:28 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "“공짜 AI가 반도체에도 좋다” 엔비디아, 개방형 AI 모델 첫 공개",
+      "impact": "neutral",
+      "published": "Wed, 12 Aug 2026 02:40:00 GMT"
     },
     {
       "tag": "전쟁",
