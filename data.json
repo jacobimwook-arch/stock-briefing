@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-08-14T08:22:22",
+  "updatedAt": "2026-08-17T07:56:33",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6967.62,
-      "change": 2.26
+      "value": 6977.94,
+      "change": 2.42
     },
     {
       "name": "KOSDAQ",
-      "value": 864.91,
-      "change": 0.41
+      "value": 864.65,
+      "change": 0.38
     },
     {
       "name": "S&P 500",
-      "value": 7798.99,
-      "change": 0.65
+      "value": 7785.76,
+      "change": -0.17
     },
     {
       "name": "NASDAQ",
-      "value": 26803.03,
-      "change": 0.81
+      "value": 26729.16,
+      "change": -0.28
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1413.69,
-    "change": -0.2
+    "value": 1411.58,
+    "change": -0.37
   },
   "stocks": [
     {
@@ -93,19 +93,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 104.56,
-      "change": 3.58,
-      "prevClose": 100.95,
+      "price": 102.5,
+      "change": -1.97,
+      "prevClose": 104.56,
       "trend": [
-        0.9665,
-        0.9546,
-        0.9722,
-        0.9327,
-        0.9345,
-        0.9655,
+        0.9738,
+        0.9917,
+        0.9514,
+        0.9533,
+        0.9849,
+        1.0201,
         1.0
       ],
-      "volume": 116542400,
+      "volume": 95105600,
       "reasons": []
     },
     {
@@ -113,90 +113,90 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 225.3,
-      "change": 0.54,
-      "prevClose": 224.09,
+      "price": 225.16,
+      "change": -0.06,
+      "prevClose": 225.3,
       "trend": [
-        0.973,
-        0.972,
-        0.9941,
-        0.9656,
-        0.9654,
-        0.9946,
+        0.9726,
+        0.9947,
+        0.9662,
+        0.966,
+        0.9952,
+        1.0006,
         1.0
       ],
-      "volume": 98607900,
+      "volume": 75504000,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "Micron",
-      "code": "MU",
-      "logo": "MU",
-      "price": 949.83,
-      "change": 4.23,
-      "prevClose": 911.29,
+      "name": "Broadcom",
+      "code": "AVGO",
+      "logo": "AVGO",
+      "price": 392.99,
+      "change": -5.94,
+      "prevClose": 417.82,
       "trend": [
-        0.9404,
-        0.928,
-        0.9239,
-        0.9065,
-        0.9144,
-        0.9594,
+        1.0702,
+        1.0885,
+        1.0748,
+        1.0588,
+        1.0587,
+        1.0632,
         1.0
       ],
-      "volume": 36462500,
+      "volume": 29432900,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 닷새 연속 상승…7,000선 턱밑 마감",
+      "text": "“코스피, 앞으로 더 크게 흔들릴 수도” … AI시대 견뎌야 할 ‘뉴노멀’",
+      "impact": "neutral",
+      "published": "Sun, 16 Aug 2026 19:10:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가",
+      "impact": "neutral",
+      "published": "Mon, 17 Aug 2026 05:01:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대",
+      "impact": "neutral",
+      "published": "Sun, 16 Aug 2026 22:35:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "\"확신의 매수 구간\"…비중확대 추천한 반도체 종목은",
       "impact": "pos",
-      "published": "Fri, 14 Aug 2026 07:09:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "[경제][속보] 코스피 2.42% 오른 6,977.94 종료",
-      "impact": "neutral",
-      "published": "Fri, 14 Aug 2026 06:40:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "“외국인 185조 원 팔아치웠는데”…코스피, 열흘 새 23% 오른 이유는? [잇슈 머니]",
-      "impact": "neutral",
-      "published": "Thu, 13 Aug 2026 21:53:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "테일러 팹 가동 앞둔 삼성전자, 美 단기파견 모집 ‘냉랭’… “업무 강도 대비 보상 적어”",
-      "impact": "neutral",
-      "published": "Fri, 14 Aug 2026 05:17:00 GMT"
+      "published": "Mon, 17 Aug 2026 07:30:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "구광모·젠슨황 ‘AI협력’ 강화... 내년 ‘엔비디아 칩’ 심은 휴머노이드 공개",
+      "text": "엔비디아의 AI로봇 파트너…LG 몸값 치솟는다",
       "impact": "neutral",
-      "published": "Fri, 14 Aug 2026 05:12:17 GMT"
+      "published": "Sun, 16 Aug 2026 21:00:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "LG, 내년 1분기 ‘엔비디아 플랫폼’ 심은 휴머노이드 내놓는다···AI 동맹 강화",
-      "impact": "neutral",
-      "published": "Fri, 14 Aug 2026 04:49:00 GMT"
+      "text": "아시아 외환, 연준 금리 인상 기대 완화에 상승…엔화도 강세",
+      "impact": "pos",
+      "published": "Mon, 17 Aug 2026 04:13:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "[국민연금 美주식] 엔비디아 덜고 애플·MS 더 담았다…엇갈린 M7 베팅",
+      "text": "“AI 다음은 로봇까지 먹는다”…LG 손잡은 엔비디아가 노리는 것",
       "impact": "neutral",
-      "published": "Fri, 14 Aug 2026 01:40:13 GMT"
+      "published": "Mon, 17 Aug 2026 02:18:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "LG, 엔비디아와 손잡고 차세대 휴머노이드 내년 1분기 공개",
+      "text": "엔비디아, 소뱅 자회사 'SB에너지'에 4.26조원 투자 검토",
       "impact": "neutral",
-      "published": "Fri, 14 Aug 2026 06:20:01 GMT"
+      "published": "Sun, 16 Aug 2026 22:00:01 GMT"
     },
     {
       "tag": "전쟁",
