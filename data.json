@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-08-17T07:56:33",
+  "updatedAt": "2026-08-18T07:44:52",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6977.94,
-      "change": 2.42
+      "value": 6869.83,
+      "change": -1.55
     },
     {
       "name": "KOSDAQ",
-      "value": 864.65,
-      "change": 0.38
+      "value": 834.2,
+      "change": -3.52
     },
     {
       "name": "S&P 500",
@@ -24,8 +24,8 @@
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1411.58,
-    "change": -0.37
+    "value": 1412.18,
+    "change": -0.23
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 274500.0,
-      "change": 2.43,
-      "prevClose": 268000.0,
+      "price": 268500.0,
+      "change": -2.19,
+      "prevClose": 274500.0,
       "trend": [
-        0.8397,
-        0.8415,
-        0.8379,
-        0.8725,
-        0.9308,
-        0.9763,
+        0.8603,
+        0.8566,
+        0.892,
+        0.9516,
+        0.9981,
+        1.0223,
         1.0
       ],
-      "volume": 21668266,
+      "volume": 24003581,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1645000.0,
-      "change": 3.26,
-      "prevClose": 1593000.0,
+      "price": 1662000.0,
+      "change": 1.03,
+      "prevClose": 1645000.0,
       "trend": [
-        0.9088,
-        0.8644,
-        0.8632,
-        0.8663,
-        0.9143,
-        0.9684,
+        0.8556,
+        0.8544,
+        0.8574,
+        0.9049,
+        0.9585,
+        0.9898,
         1.0
       ],
-      "volume": 4295990,
+      "volume": 5121374,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1558000.0,
-      "change": 3.66,
-      "prevClose": 1503000.0,
+      "price": 1440000.0,
+      "change": -7.57,
+      "prevClose": 1558000.0,
       "trend": [
-        0.7888,
-        0.8203,
-        0.8177,
-        0.81,
-        0.8569,
-        0.9647,
+        0.8875,
+        0.8847,
+        0.8764,
+        0.9271,
+        1.0437,
+        1.0819,
         1.0
       ],
-      "volume": 968103,
+      "volume": 1080935,
       "reasons": []
     },
     {
@@ -105,7 +105,7 @@
         1.0201,
         1.0
       ],
-      "volume": 95105600,
+      "volume": 95387500,
       "reasons": []
     },
     {
@@ -125,7 +125,7 @@
         1.0006,
         1.0
       ],
-      "volume": 75504000,
+      "volume": 75680900,
       "reasons": []
     },
     {
@@ -145,58 +145,58 @@
         1.0632,
         1.0
       ],
-      "volume": 29432900,
+      "volume": 29513600,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "“코스피, 앞으로 더 크게 흔들릴 수도” … AI시대 견뎌야 할 ‘뉴노멀’",
-      "impact": "neutral",
-      "published": "Sun, 16 Aug 2026 19:10:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "삼성전자·SK하이닉스, 호실적에 상반기 현금 117조 증가",
-      "impact": "neutral",
-      "published": "Mon, 17 Aug 2026 05:01:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "\"반도체 우려 정점 지났다\"…3분기에 삼전닉스 주가 재평가 기대",
-      "impact": "neutral",
-      "published": "Sun, 16 Aug 2026 22:35:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "\"확신의 매수 구간\"…비중확대 추천한 반도체 종목은",
+      "text": "삼성전자·하이닉스, 코스피 내 비중 한때 50%대 회복(종합)",
       "impact": "pos",
-      "published": "Mon, 17 Aug 2026 07:30:00 GMT"
+      "published": "Tue, 18 Aug 2026 07:08:54 GMT"
     },
     {
-      "tag": "미국",
-      "text": "엔비디아의 AI로봇 파트너…LG 몸값 치솟는다",
+      "tag": "한국",
+      "text": "한미반도체, 1천300억 투자 역대 최대규모 8공장 구축",
       "impact": "neutral",
-      "published": "Sun, 16 Aug 2026 21:00:00 GMT"
+      "published": "Tue, 18 Aug 2026 05:35:03 GMT"
     },
     {
-      "tag": "미국",
-      "text": "아시아 외환, 연준 금리 인상 기대 완화에 상승…엔화도 강세",
-      "impact": "pos",
-      "published": "Mon, 17 Aug 2026 04:13:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "“AI 다음은 로봇까지 먹는다”…LG 손잡은 엔비디아가 노리는 것",
+      "tag": "한국",
+      "text": "삼성·SK, 반도체 수율 확보 총력…'분석실' 대거 업그레이드",
       "impact": "neutral",
-      "published": "Mon, 17 Aug 2026 02:18:00 GMT"
+      "published": "Tue, 18 Aug 2026 07:30:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "대미투자 1호 막판 조율…美 ’반도체 생산’ 압박",
+      "impact": "neutral",
+      "published": "Tue, 18 Aug 2026 07:08:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 소뱅 자회사 'SB에너지'에 4.26조원 투자 검토",
+      "text": "국가대표 AI LG·SKT·업스테이지 3파전…엔비디아 GPU 지원",
       "impact": "neutral",
-      "published": "Sun, 16 Aug 2026 22:00:01 GMT"
+      "published": "Tue, 18 Aug 2026 02:06:00 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "LG전자-엔비디아, 12년치 로봇데이터 만든다",
+      "impact": "neutral",
+      "published": "Tue, 18 Aug 2026 05:43:40 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "돈나무 언니, 로블록스 털고 엔비디아 집중 매수",
+      "impact": "neutral",
+      "published": "Tue, 18 Aug 2026 05:14:52 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "투자 넘어 보증까지… 엔비디아, 1050억달러로 오픈AI에 금융 보증",
+      "impact": "neutral",
+      "published": "Tue, 18 Aug 2026 04:15:00 GMT"
     },
     {
       "tag": "전쟁",
@@ -206,9 +206,9 @@
     },
     {
       "tag": "전쟁",
-      "text": "호르무즈 협상 교착에도 국제유가 '보합'…“수요 둔화가 상승세 막았다”",
+      "text": "[트럼프 스톡커] 흑해까지 병목 생기자 수요 줄여 버티는 유가",
       "impact": "neutral",
-      "published": "Wed, 12 Aug 2026 22:22:49 GMT"
+      "published": "Fri, 14 Aug 2026 00:18:48 GMT"
     }
   ],
   "summary": ""
