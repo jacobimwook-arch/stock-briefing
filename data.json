@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-08-24T08:01:19",
+  "updatedAt": "2026-08-25T07:50:43",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6696.96,
-      "change": -3.12
+      "value": 6742.74,
+      "change": 0.68
     },
     {
       "name": "KOSDAQ",
-      "value": 813.33,
-      "change": 1.42
+      "value": 827.15,
+      "change": 1.7
     },
     {
       "name": "S&P 500",
-      "value": 7674.37,
-      "change": 0.43
+      "value": 7652.86,
+      "change": -0.28
     },
     {
       "name": "NASDAQ",
-      "value": 26180.46,
-      "change": 0.43
+      "value": 25980.19,
+      "change": -0.76
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1384.09,
-    "change": -0.48
+    "value": 1385.37,
+    "change": 0.03
   },
   "stocks": [
     {
@@ -34,18 +34,18 @@
       "code": "005930",
       "logo": "삼전",
       "price": 257000.0,
-      "change": -8.7,
-      "prevClose": 281500.0,
+      "change": 0.0,
+      "prevClose": 257000.0,
       "trend": [
-        1.0428,
         1.0681,
         1.0447,
         0.963,
         1.0545,
         1.0953,
+        1.0,
         1.0
       ],
-      "volume": 32451480,
+      "volume": 21596130,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1671000.0,
-      "change": -3.41,
-      "prevClose": 1730000.0,
+      "price": 1678000.0,
+      "change": 0.42,
+      "prevClose": 1671000.0,
       "trend": [
-        0.9533,
-        0.9844,
-        0.9946,
-        0.8977,
-        1.012,
-        1.0353,
+        0.9803,
+        0.9905,
+        0.8939,
+        1.0077,
+        1.031,
+        0.9958,
         1.0
       ],
-      "volume": 3993766,
+      "volume": 4013938,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1318000.0,
-      "change": 0.15,
-      "prevClose": 1316000.0,
+      "price": 1362000.0,
+      "change": 3.34,
+      "prevClose": 1318000.0,
       "trend": [
-        1.1404,
-        1.1821,
-        1.0926,
-        1.0524,
-        1.0592,
-        0.9985,
+        1.1439,
+        1.0573,
+        1.0184,
+        1.025,
+        0.9662,
+        0.9677,
         1.0
       ],
-      "volume": 501168,
+      "volume": 574386,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 214.72,
-      "change": -0.98,
-      "prevClose": 216.85,
+      "price": 208.48,
+      "change": -2.91,
+      "prevClose": 214.72,
       "trend": [
-        1.0493,
-        1.0486,
-        1.0479,
-        1.0234,
-        1.0132,
-        1.0099,
+        1.08,
+        1.0793,
+        1.054,
+        1.0436,
+        1.0401,
+        1.0299,
         1.0
       ],
-      "volume": 98545600,
+      "volume": 134796300,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 90.07,
-      "change": -2.24,
-      "prevClose": 92.13,
+      "price": 87.26,
+      "change": -3.12,
+      "prevClose": 90.07,
       "trend": [
-        1.1609,
-        1.138,
-        1.149,
-        1.0735,
-        1.0303,
-        1.0229,
+        1.1747,
+        1.186,
+        1.1081,
+        1.0635,
+        1.0558,
+        1.0322,
         1.0
       ],
-      "volume": 91192100,
+      "volume": 96590600,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 966.78,
-      "change": -0.77,
-      "prevClose": 974.33,
+      "price": 910.43,
+      "change": -5.83,
+      "prevClose": 966.78,
       "trend": [
-        0.9825,
-        1.005,
-        1.0465,
-        0.9731,
-        0.9693,
-        1.0078,
+        1.0673,
+        1.1113,
+        1.0333,
+        1.0293,
+        1.0702,
+        1.0619,
         1.0
       ],
-      "volume": 21741600,
+      "volume": 29853700,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "\"경기 고려 없는 반도체 증설 압박, 막대한 손실 감내해야 할 수도\"",
+      "text": "반도체 끝물이라더니 삼전닉스 '초대박'?…파격 전망 나왔다",
       "impact": "neutral",
-      "published": "Sun, 23 Aug 2026 20:32:35 GMT"
+      "published": "Tue, 25 Aug 2026 04:19:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "엔비디아도 못 버틴 메모리값…삼성·SK하이닉스 가격 협상력 ’UP’ By EBN",
+      "text": "[단독] 美, 호남 반도체 언급하며 \"공장 지어달라\" 압박",
       "impact": "neutral",
-      "published": "Mon, 24 Aug 2026 06:12:00 GMT"
+      "published": "Mon, 24 Aug 2026 20:12:28 GMT"
     },
     {
       "tag": "한국",
-      "text": "SK하이닉스 경영진, 광주 군공항 방문…반도체 부지 점검",
+      "text": "[속보]美증시 반도체 급락…마이크론 -5.8%·하닉ADR -4.9%",
       "impact": "neutral",
-      "published": "Mon, 24 Aug 2026 05:55:38 GMT"
+      "published": "Mon, 24 Aug 2026 21:01:59 GMT"
     },
     {
       "tag": "한국",
-      "text": "[증시-마감] 코스피, 삼전닉스 급락에 6,600선 후퇴…외인 3조원대 순매도",
+      "text": "[증시-마감] 반도체 '투톱' 제자리에도…코스피 순환매에 0.68% 반등",
       "impact": "neutral",
-      "published": "Mon, 24 Aug 2026 06:54:28 GMT"
+      "published": "Tue, 25 Aug 2026 06:58:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아 호실적이면 반도체주 다시 뛸까…이번주 ‘시험대’",
+      "text": "엔비디아 2분기 실적에서 확인해야 할 5가지 체크 포인트",
       "impact": "neutral",
-      "published": "Sun, 23 Aug 2026 23:44:00 GMT"
+      "published": "Mon, 24 Aug 2026 23:35:19 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, AI 개발사 ‘우회 인수’해 오픈웨이트 모델 개발 추진",
-      "impact": "neutral",
-      "published": "Mon, 24 Aug 2026 06:03:00 GMT"
+      "text": "엔비디아, 그록3 LPX 고객사 확보…삼성 파운드리 기대감↑",
+      "impact": "pos",
+      "published": "Tue, 25 Aug 2026 05:45:46 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 첨단 오픈소스 AI 개발사 우회 인수",
+      "text": "Nvidia 실적·연준 신호 앞두고 미국 증시 선물 보합세",
       "impact": "neutral",
-      "published": "Sun, 23 Aug 2026 23:23:46 GMT"
+      "published": "Tue, 25 Aug 2026 01:05:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "“엔비디아만 볼 때가 아니다”···이번 주 실적 발표 후 ‘역대급 변동성’ 터질 10종목",
+      "text": "대만 검찰, 엔비디아 칩 서버 중국 밀수출 관련자 9명 기소",
       "impact": "neutral",
-      "published": "Mon, 24 Aug 2026 02:06:03 GMT"
+      "published": "Tue, 25 Aug 2026 04:47:19 GMT"
     },
     {
       "tag": "전쟁",
