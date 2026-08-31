@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-08-28T19:22:36",
+  "updatedAt": "2026-08-31T15:00:23",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6788.88,
-      "change": -1.79
+      "value": 6820.02,
+      "change": 0.46
     },
     {
       "name": "KOSDAQ",
-      "value": 838.41,
-      "change": 0.09
+      "value": 834.29,
+      "change": -0.49
     },
     {
       "name": "S&P 500",
-      "value": 7711.93,
-      "change": -0.25
+      "value": 7677.94,
+      "change": -0.44
     },
     {
       "name": "NASDAQ",
-      "value": 26403.71,
-      "change": -0.52
+      "value": 26298.59,
+      "change": -0.39
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1378.82,
-    "change": -0.34
+    "value": 1368.77,
+    "change": -0.85
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 257000.0,
-      "change": -3.38,
-      "prevClose": 266000.0,
+      "price": 260000.0,
+      "change": 1.17,
+      "prevClose": 257000.0,
       "trend": [
-        1.0545,
-        1.0953,
-        1.0,
-        1.0,
-        1.0175,
-        1.035,
+        1.0827,
+        0.9885,
+        0.9885,
+        1.0058,
+        1.0231,
+        0.9885,
         1.0
       ],
-      "volume": 14698877,
+      "volume": 17009810,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1653000.0,
-      "change": -4.45,
-      "prevClose": 1730000.0,
+      "price": 1674000.0,
+      "change": 1.27,
+      "prevClose": 1653000.0,
       "trend": [
-        1.023,
-        1.0466,
-        1.0109,
-        1.0151,
-        1.0212,
-        1.0466,
+        1.0335,
+        0.9982,
+        1.0024,
+        1.0084,
+        1.0335,
+        0.9875,
         1.0
       ],
-      "volume": 2796942,
+      "volume": 3738187,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1421000.0,
+      "price": 1458000.0,
       "change": 2.6,
-      "prevClose": 1385000.0,
+      "prevClose": 1421000.0,
       "trend": [
-        0.9824,
-        0.9261,
-        0.9275,
-        0.9585,
-        0.936,
-        0.9747,
+        0.9026,
+        0.904,
+        0.9342,
+        0.9122,
+        0.9499,
+        0.9746,
         1.0
       ],
-      "volume": 742701,
+      "volume": 880377,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 217.42,
-      "change": -4.63,
-      "prevClose": 227.98,
+      "price": 219.67,
+      "change": 0.98,
+      "prevClose": 217.55,
       "trend": [
-        0.9974,
-        0.9876,
-        0.9589,
-        0.9799,
-        0.9643,
-        1.0486,
+        0.9775,
+        0.949,
+        0.9699,
+        0.9544,
+        1.0378,
+        0.9903,
         1.0
       ],
-      "volume": 147648113,
+      "volume": 38255701,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 89.68,
-      "change": -2.61,
-      "prevClose": 92.09,
+      "price": 89.81,
+      "change": 0.37,
+      "prevClose": 89.47,
       "trend": [
-        1.0273,
-        1.0043,
-        0.973,
-        0.9754,
-        0.9839,
-        1.0268,
+        1.003,
+        0.9717,
+        0.9741,
+        0.9826,
+        1.0254,
+        0.9963,
         1.0
       ],
-      "volume": 68379316,
+      "volume": 24044535,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 929.12,
-      "change": -0.67,
-      "prevClose": 935.39,
+      "price": 943.24,
+      "change": 1.11,
+      "prevClose": 932.86,
       "trend": [
-        1.0487,
-        1.0405,
-        0.9799,
-        1.0041,
-        1.01,
-        1.0067,
+        1.025,
+        0.9652,
+        0.9891,
+        0.9949,
+        0.9917,
+        0.989,
         1.0
       ],
-      "volume": 18956081,
+      "volume": 8293571,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "\"트럼프, 반도체 고율관세 검토...SK하이닉스 \"미국산 HBM 생산\"",
+      "text": "코스피 6820.02 마감…삼전닉스 '자사주 매입'이 받쳤다",
       "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 01:54:00 GMT"
+      "published": "Mon, 31 Aug 2026 07:14:35 GMT"
     },
     {
       "tag": "한국",
-      "text": "미 트럼프 정부, 또 반도체 관세 카드 만지작... \"단기적 자승자박, 장기적 위협\"",
-      "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 06:03:32 GMT"
+      "text": "'삼전·닉스' 자사주 매입에 코스피 상승 전환…6,820 마감(종합)",
+      "impact": "pos",
+      "published": "Mon, 31 Aug 2026 07:04:37 GMT"
     },
     {
       "tag": "한국",
-      "text": "삼성전자",
-      "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 15:04:33 GMT"
+      "text": "'매파 워시'에도 버틴 코스피…9월, \"8천피 가능\" vs \"빠른 상승 어려워\"",
+      "impact": "pos",
+      "published": "Mon, 31 Aug 2026 07:33:57 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피, 美 '반도체 관세설' 6800 아래로···삼전·닉스 3~4%대 급락",
+      "text": "SK하이닉스 성과급 지출 청주는 명품관에 쏠렸다",
       "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 07:43:35 GMT"
+      "published": "Mon, 31 Aug 2026 11:06:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "워시 연준 의장, 잭슨홀 기조연설 시작",
+      "text": "美연준발 삭풍에 불확실성↑…코스피는 반등해 6,800선 마감(종합)",
       "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 13:52:00 GMT"
+      "published": "Mon, 31 Aug 2026 07:50:29 GMT"
     },
     {
       "tag": "미국",
-      "text": "워시 연준 의장, 고물가 우려...금리 인상 필요 시사",
-      "impact": "neg",
-      "published": "Fri, 28 Aug 2026 15:18:00 GMT"
+      "text": "엔비디아, 대만 반도체 기업 '미디어텍'에 35억弗 투자…AI 생태계 강화",
+      "impact": "neutral",
+      "published": "Mon, 31 Aug 2026 12:55:04 GMT"
     },
     {
       "tag": "미국",
-      "text": "워시 연준 의장, 美 높은 물가상승률에 \"우려스럽다\"",
-      "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 14:19:42 GMT"
+      "text": "트라이하드 홀딩스, 나스닥 최저 주가 요건 충족 회복",
+      "impact": "pos",
+      "published": "Mon, 31 Aug 2026 13:33:51 GMT"
     },
     {
       "tag": "미국",
-      "text": "[속보] 워시 연준의장 “美 물가상승률 우려스럽다”",
+      "text": "다우존스, 나스닥, S&P 500 주간 전망: 고용 지표·실적 발표 주목",
       "impact": "neutral",
-      "published": "Fri, 28 Aug 2026 14:12:13 GMT"
+      "published": "Mon, 31 Aug 2026 10:54:00 GMT"
     },
     {
       "tag": "전쟁",
@@ -206,9 +206,9 @@
     },
     {
       "tag": "전쟁",
-      "text": "국제유가, 중동 긴장 완화 기대에 하락…WTI 82달러선",
-      "impact": "neg",
-      "published": "Wed, 26 Aug 2026 23:06:30 GMT"
+      "text": "유가는 상승했지만, 미국이 이란에 대한 공격을 재개하자 아시아 증시는 급락했다.",
+      "impact": "pos",
+      "published": "Mon, 31 Aug 2026 03:44:56 GMT"
     }
   ],
   "summary": ""
