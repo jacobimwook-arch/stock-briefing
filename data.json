@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-09-03T12:02:51",
+  "updatedAt": "2026-09-04T12:04:52",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6579.48,
-      "change": 0.26
+      "value": 6687.21,
+      "change": 1.64
     },
     {
       "name": "KOSDAQ",
-      "value": 790.21,
-      "change": -1.71
+      "value": 813.5,
+      "change": 2.95
     },
     {
       "name": "S&P 500",
-      "value": 7666.6,
-      "change": 0.46
+      "value": 7747.71,
+      "change": 1.06
     },
     {
       "name": "NASDAQ",
-      "value": 26217.83,
-      "change": 0.45
+      "value": 26584.06,
+      "change": 1.4
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1356.88,
-    "change": -1.16
+    "value": 1349.88,
+    "change": -0.63
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 250000.0,
-      "change": -0.2,
-      "prevClose": 250500.0,
+      "price": 255500.0,
+      "change": 2.2,
+      "prevClose": 250000.0,
       "trend": [
-        1.046,
-        1.064,
-        1.028,
-        1.04,
-        1.044,
-        1.002,
+        1.0411,
+        1.0059,
+        1.0176,
+        1.0215,
+        0.9804,
+        0.9785,
         1.0
       ],
-      "volume": 13723105,
+      "volume": 14031862,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1596000.0,
-      "change": -1.05,
-      "prevClose": 1613000.0,
+      "price": 1647000.0,
+      "change": 3.2,
+      "prevClose": 1596000.0,
       "trend": [
-        1.0576,
-        1.084,
-        1.0357,
-        1.0489,
-        1.0608,
-        1.0107,
+        1.0504,
+        1.0036,
+        1.0164,
+        1.0279,
+        0.9794,
+        0.969,
         1.0
       ],
-      "volume": 2628539,
+      "volume": 2827725,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1348000.0,
-      "change": -3.71,
-      "prevClose": 1400000.0,
+      "price": 1401000.0,
+      "change": 3.93,
+      "prevClose": 1348000.0,
       "trend": [
-        0.9866,
-        1.0274,
-        1.0542,
-        1.0816,
-        1.0608,
-        1.0386,
+        0.9886,
+        1.0143,
+        1.0407,
+        1.0207,
+        0.9993,
+        0.9622,
         1.0
       ],
-      "volume": 590687,
+      "volume": 572762,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 224.41,
-      "change": 3.21,
-      "prevClose": 217.44,
+      "price": 228.45,
+      "change": 1.8,
+      "prevClose": 224.41,
       "trend": [
-        0.9494,
-        0.9343,
-        1.0159,
-        0.9694,
-        0.9838,
-        0.9689,
+        0.9178,
+        0.9979,
+        0.9523,
+        0.9664,
+        0.9518,
+        0.9823,
         1.0
       ],
-      "volume": 156676500,
+      "volume": 133994100,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 90.05,
-      "change": 1.21,
-      "prevClose": 88.97,
+      "price": 91.67,
+      "change": 1.8,
+      "prevClose": 90.05,
       "trend": [
-        0.9715,
-        0.9799,
-        1.0227,
-        0.9936,
-        0.994,
-        0.988,
+        0.9626,
+        1.0046,
+        0.976,
+        0.9764,
+        0.9705,
+        0.9823,
         1.0
       ],
-      "volume": 61365700,
+      "volume": 79724500,
       "reasons": []
     },
     {
@@ -133,82 +133,82 @@
       "name": "Broadcom",
       "code": "AVGO",
       "logo": "AVGO",
-      "price": 367.24,
-      "change": -0.66,
-      "prevClose": 369.68,
+      "price": 357.16,
+      "change": -2.74,
+      "prevClose": 367.24,
       "trend": [
-        0.9714,
-        0.9683,
-        1.0117,
-        1.0042,
-        1.0084,
-        1.0066,
+        0.9956,
+        1.0403,
+        1.0326,
+        1.0369,
+        1.0351,
+        1.0282,
         1.0
       ],
-      "volume": 37534600,
+      "volume": 60137700,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "‘이유 없이 뚝’ 코스피…개인·외국인·기관 모두 던져",
+      "text": "\"똑같은 반도체 아니야?\"...초고수, 삼전 사고 하이닉스는 팔았다",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 07:42:00 GMT"
+      "published": "Fri, 04 Sep 2026 02:00:10 GMT"
     },
     {
       "tag": "한국",
-      "text": "삼성전자 HBM 점유율 33%로 급등…SK하이닉스 50% 1위",
+      "text": "“7000 간다더니 6600도 간당”…코스피 전망, 일주일 새 무슨 일?",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 07:55:02 GMT"
+      "published": "Fri, 04 Sep 2026 03:54:51 GMT"
     },
     {
       "tag": "한국",
-      "text": "[금융권 풍향계] 황기연 수은 행장, 전남광주 반도체 기업 방문 등 현장 행보 外",
+      "text": "800조 투자 약속했는데 '뒤통수' 친 정부 … 호남 반도체 '회의론' 더 키웠다",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 08:53:15 GMT"
+      "published": "Fri, 04 Sep 2026 00:42:07 GMT"
     },
     {
       "tag": "한국",
-      "text": "삼성전자 HBM 맹추격…SK하이닉스와 격차 17%p로 줄었다",
+      "text": "산업부, 미 반도체·첨단소재 등 4개 기업 투자 유치…20억 달러 규모",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 10:00:11 GMT"
+      "published": "Fri, 04 Sep 2026 08:03:45 GMT"
     },
     {
       "tag": "미국",
-      "text": "'엔비디아 라이벌' 브로드컴 호실적 발표...미국 고용 증가세 둔화, 금리 인상론 '복병'",
-      "impact": "neg",
-      "published": "Thu, 03 Sep 2026 08:09:00 GMT"
+      "text": "엔비디아, 차세대 AI PC 칩 'RTX 스파크' 10월 출시...개인용 AI 라우터 '페어' 공개",
+      "impact": "neutral",
+      "published": "Fri, 04 Sep 2026 04:27:33 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아가 대만 반도체 채권을 산 이유는",
+      "text": "엔비디아, ‘AI 깃허브’ 허깅페이스 17조원에 인수",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 04:27:56 GMT"
+      "published": "Fri, 04 Sep 2026 01:57:54 GMT"
     },
     {
       "tag": "미국",
-      "text": "우리금융硏 \"연준, 9월 금리 25bp 인상할 것…근원물가 압력 대응\"",
+      "text": "엔비디아, 허깅페이스 인수…'AI 독점' 완성인가, 오픈소스 구원인가",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 07:40:44 GMT"
+      "published": "Fri, 04 Sep 2026 05:57:20 GMT"
     },
     {
       "tag": "미국",
-      "text": "HSBC, 매파적 연준 전망에 미국채 금리 예측 상향 조정",
+      "text": "사이버링크, 포토디렉터 365 ‘AI PC 모드’ 공개…엔비디아 RTX 스파크서 온디바이스 AI 사진 편집",
       "impact": "neutral",
-      "published": "Thu, 03 Sep 2026 10:51:00 GMT"
+      "published": "Fri, 04 Sep 2026 08:33:08 GMT"
     },
     {
       "tag": "전쟁",
-      "text": "유가는 상승했지만, 미국이 이란에 대한 공격을 재개하자 아시아 증시는 급락했다.",
-      "impact": "pos",
-      "published": "Mon, 31 Aug 2026 03:44:56 GMT"
+      "text": "국제유가 혼조세, 중동 긴장에도 러시아·우크라이나 전쟁 완화 기대감 반영",
+      "impact": "neg",
+      "published": "Thu, 03 Sep 2026 23:46:36 GMT"
     },
     {
       "tag": "전쟁",
-      "text": "국제유가, 중동 긴장 완화 기대에 하락…WTI 82달러선",
+      "text": "중동 협상 진전에 유가 하락… 러시아-우크라이나 전쟁은 변수｜Global Money Club",
       "impact": "neg",
-      "published": "Wed, 26 Aug 2026 23:06:30 GMT"
+      "published": "Thu, 27 Aug 2026 01:13:25 GMT"
     }
   ],
   "summary": ""
