@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-09-04T12:04:52",
+  "updatedAt": "2026-09-07T13:26:59",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6687.21,
-      "change": 1.64
+      "value": 6995.39,
+      "change": 4.61
     },
     {
       "name": "KOSDAQ",
-      "value": 813.5,
-      "change": 2.95
+      "value": 822.19,
+      "change": 1.07
     },
     {
       "name": "S&P 500",
-      "value": 7747.71,
-      "change": 1.06
+      "value": 7718.6,
+      "change": -0.38
     },
     {
       "name": "NASDAQ",
-      "value": 26584.06,
-      "change": 1.4
+      "value": 26506.99,
+      "change": -0.29
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1349.88,
-    "change": -0.63
+    "value": 1347.08,
+    "change": -0.61
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 255500.0,
-      "change": 2.2,
-      "prevClose": 250000.0,
+      "price": 270000.0,
+      "change": 5.68,
+      "prevClose": 255500.0,
       "trend": [
-        1.0411,
-        1.0059,
-        1.0176,
-        1.0215,
-        0.9804,
-        0.9785,
+        0.9519,
+        0.963,
+        0.9667,
+        0.9278,
+        0.9259,
+        0.9463,
         1.0
       ],
-      "volume": 14031862,
+      "volume": 18277791,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1647000.0,
-      "change": 3.2,
-      "prevClose": 1596000.0,
+      "price": 1783000.0,
+      "change": 8.26,
+      "prevClose": 1647000.0,
       "trend": [
-        1.0504,
-        1.0036,
-        1.0164,
-        1.0279,
-        0.9794,
-        0.969,
+        0.9271,
+        0.9389,
+        0.9495,
+        0.9047,
+        0.8951,
+        0.9237,
         1.0
       ],
-      "volume": 2827725,
+      "volume": 3478577,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1401000.0,
-      "change": 3.93,
-      "prevClose": 1348000.0,
+      "price": 1454000.0,
+      "change": 3.78,
+      "prevClose": 1401000.0,
       "trend": [
-        0.9886,
-        1.0143,
-        1.0407,
-        1.0207,
-        0.9993,
-        0.9622,
+        0.9773,
+        1.0028,
+        0.9835,
+        0.9629,
+        0.9271,
+        0.9635,
         1.0
       ],
-      "volume": 572762,
+      "volume": 523217,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 228.45,
-      "change": 1.8,
-      "prevClose": 224.41,
+      "price": 230.36,
+      "change": 0.84,
+      "prevClose": 228.45,
       "trend": [
-        0.9178,
-        0.9979,
-        0.9523,
-        0.9664,
-        0.9518,
-        0.9823,
+        0.9897,
+        0.9444,
+        0.9584,
+        0.9439,
+        0.9742,
+        0.9917,
         1.0
       ],
-      "volume": 133994100,
+      "volume": 134946800,
       "reasons": []
     },
     {
@@ -113,90 +113,90 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 91.67,
-      "change": 1.8,
-      "prevClose": 90.05,
+      "price": 95.8,
+      "change": 4.51,
+      "prevClose": 91.67,
       "trend": [
-        0.9626,
-        1.0046,
-        0.976,
-        0.9764,
-        0.9705,
-        0.9823,
+        0.9613,
+        0.9339,
+        0.9343,
+        0.9287,
+        0.94,
+        0.9569,
         1.0
       ],
-      "volume": 79724500,
+      "volume": 97428100,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "Broadcom",
-      "code": "AVGO",
-      "logo": "AVGO",
-      "price": 357.16,
-      "change": -2.74,
-      "prevClose": 367.24,
+      "name": "Micron",
+      "code": "MU",
+      "logo": "MU",
+      "price": 1016.59,
+      "change": 6.1,
+      "prevClose": 958.16,
       "trend": [
-        0.9956,
-        1.0403,
-        1.0326,
-        1.0369,
-        1.0351,
-        1.0282,
+        0.9201,
+        0.9176,
+        0.9431,
+        0.9182,
+        0.9405,
+        0.9425,
         1.0
       ],
-      "volume": 60137700,
+      "volume": 35116600,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "\"똑같은 반도체 아니야?\"...초고수, 삼전 사고 하이닉스는 팔았다",
+      "text": "억대 성과급 삼성 반도체 ‘월세 지원 70만원’ 부정 수급 의혹에 시끌",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 02:00:10 GMT"
+      "published": "Mon, 07 Sep 2026 06:49:33 GMT"
     },
     {
       "tag": "한국",
-      "text": "“7000 간다더니 6600도 간당”…코스피 전망, 일주일 새 무슨 일?",
+      "text": "오픈AI발 훈풍에…코스피, 4.61% 급등",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 03:54:51 GMT"
+      "published": "Mon, 07 Sep 2026 07:39:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "800조 투자 약속했는데 '뒤통수' 친 정부 … 호남 반도체 '회의론' 더 키웠다",
+      "text": "“반도체 이 4종목, 맘 편히 사라” 여의도 떠나는 노근창 픽",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 00:42:07 GMT"
+      "published": "Sun, 06 Sep 2026 20:04:37 GMT"
     },
     {
       "tag": "한국",
-      "text": "산업부, 미 반도체·첨단소재 등 4개 기업 투자 유치…20억 달러 규모",
+      "text": "코스피, 오픈AI발 반도체 훈풍에 4.6% 급등…7,000선 턱밑(종합)",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 08:03:45 GMT"
+      "published": "Mon, 07 Sep 2026 07:11:02 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 차세대 AI PC 칩 'RTX 스파크' 10월 출시...개인용 AI 라우터 '페어' 공개",
+      "text": "AI 업계의 중앙은행이 되어 가는 엔비디아",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 04:27:33 GMT"
+      "published": "Mon, 07 Sep 2026 04:08:31 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, ‘AI 깃허브’ 허깅페이스 17조원에 인수",
+      "text": "엘 에리언 \"연준, 9월에 금리 안 올리는 유일한 중앙은행 될 것\"",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 01:57:54 GMT"
+      "published": "Mon, 07 Sep 2026 06:07:32 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 허깅페이스 인수…'AI 독점' 완성인가, 오픈소스 구원인가",
+      "text": "“나스닥 상장 임박” 꾐에 덜컥…금감원, 비상장주식 투자 주의 촉구",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 05:57:20 GMT"
+      "published": "Mon, 07 Sep 2026 05:27:35 GMT"
     },
     {
       "tag": "미국",
-      "text": "사이버링크, 포토디렉터 365 ‘AI PC 모드’ 공개…엔비디아 RTX 스파크서 온디바이스 AI 사진 편집",
+      "text": "'AI 독립' 외치는 리벨리온에…엔비디아는 M&A 손 내밀었다",
       "impact": "neutral",
-      "published": "Fri, 04 Sep 2026 08:33:08 GMT"
+      "published": "Mon, 07 Sep 2026 06:53:45 GMT"
     },
     {
       "tag": "전쟁",
@@ -208,7 +208,7 @@
       "tag": "전쟁",
       "text": "중동 협상 진전에 유가 하락… 러시아-우크라이나 전쟁은 변수｜Global Money Club",
       "impact": "neg",
-      "published": "Thu, 27 Aug 2026 01:13:25 GMT"
+      "published": "Thu, 27 Aug 2026 07:00:00 GMT"
     }
   ],
   "summary": ""
