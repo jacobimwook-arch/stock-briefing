@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T13:26:59",
+  "updatedAt": "2026-09-08T12:05:26",
   "indices": [
     {
       "name": "KOSPI",
@@ -24,8 +24,8 @@
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1347.08,
-    "change": -0.61
+    "value": 1341.75,
+    "change": -0.25
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 270000.0,
-      "change": 5.68,
-      "prevClose": 255500.0,
+      "price": 269500.0,
+      "change": -0.19,
+      "prevClose": 270000.0,
       "trend": [
-        0.9519,
-        0.963,
-        0.9667,
-        0.9278,
-        0.9259,
-        0.9463,
+        0.9647,
+        0.9685,
+        0.9295,
+        0.9276,
+        0.9481,
+        1.0019,
         1.0
       ],
-      "volume": 18277791,
+      "volume": 22563172,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1783000.0,
-      "change": 8.26,
-      "prevClose": 1647000.0,
+      "price": 1793000.0,
+      "change": 0.56,
+      "prevClose": 1783000.0,
       "trend": [
-        0.9271,
-        0.9389,
-        0.9495,
-        0.9047,
-        0.8951,
-        0.9237,
+        0.9336,
+        0.9442,
+        0.8996,
+        0.8901,
+        0.9186,
+        0.9944,
         1.0
       ],
-      "volume": 3478577,
+      "volume": 4119139,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1454000.0,
-      "change": 3.78,
-      "prevClose": 1401000.0,
+      "price": 1370000.0,
+      "change": -5.78,
+      "prevClose": 1454000.0,
       "trend": [
-        0.9773,
-        1.0028,
-        0.9835,
-        0.9629,
-        0.9271,
-        0.9635,
+        1.0642,
+        1.0438,
+        1.0219,
+        0.9839,
+        1.0226,
+        1.0613,
         1.0
       ],
-      "volume": 523217,
+      "volume": 662079,
       "reasons": []
     },
     {
@@ -154,55 +154,55 @@
       "tag": "한국",
       "text": "억대 성과급 삼성 반도체 ‘월세 지원 70만원’ 부정 수급 의혹에 시끌",
       "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 06:49:33 GMT"
+      "published": "Tue, 08 Sep 2026 10:24:40 GMT"
     },
     {
       "tag": "한국",
-      "text": "오픈AI발 훈풍에…코스피, 4.61% 급등",
+      "text": "“삼성 반도체 곧 000명 잘린다”…월세 70만원 지원금 꼼수 발칵",
       "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 07:39:00 GMT"
+      "published": "Tue, 08 Sep 2026 09:09:45 GMT"
     },
     {
       "tag": "한국",
-      "text": "“반도체 이 4종목, 맘 편히 사라” 여의도 떠나는 노근창 픽",
+      "text": "7천피 뚫고 오르다 \"장 막판 미끌\"...유가 급등, 변수가 또",
       "impact": "neutral",
-      "published": "Sun, 06 Sep 2026 20:04:37 GMT"
+      "published": "Tue, 08 Sep 2026 06:52:24 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피, 오픈AI발 반도체 훈풍에 4.6% 급등…7,000선 턱밑(종합)",
-      "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 07:11:02 GMT"
+      "text": "장 막판 미끄러진 코스피…매크로 이슈 부각에 0.58% 하락",
+      "impact": "neg",
+      "published": "Tue, 08 Sep 2026 06:51:01 GMT"
     },
     {
       "tag": "미국",
-      "text": "AI 업계의 중앙은행이 되어 가는 엔비디아",
+      "text": "“8개 4K 카메라 동시 처리”… 어드밴텍, 엔비디아 젯팩 7.2 기반 AI 비전 검증 완료",
       "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 04:08:31 GMT"
+      "published": "Tue, 08 Sep 2026 08:38:09 GMT"
     },
     {
       "tag": "미국",
-      "text": "엘 에리언 \"연준, 9월에 금리 안 올리는 유일한 중앙은행 될 것\"",
-      "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 06:07:32 GMT"
+      "text": "비트코인, 연준 금리 인상 우려와 유가 상승에 78,000달러대로 하락",
+      "impact": "neg",
+      "published": "Tue, 08 Sep 2026 06:38:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "“나스닥 상장 임박” 꾐에 덜컥…금감원, 비상장주식 투자 주의 촉구",
+      "text": "연준 금리 인상 가능성 속 UBS \"주식·금 장기적 투자 유효\"",
       "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 05:27:35 GMT"
+      "published": "Tue, 08 Sep 2026 03:46:51 GMT"
     },
     {
       "tag": "미국",
-      "text": "'AI 독립' 외치는 리벨리온에…엔비디아는 M&A 손 내밀었다",
+      "text": "엔비디아 파트너 아이렌 \"AI 컴퓨팅 수요 무한 확장...공급이 수요 절대 못 따라가\"",
       "impact": "neutral",
-      "published": "Mon, 07 Sep 2026 06:53:45 GMT"
+      "published": "Tue, 08 Sep 2026 09:11:23 GMT"
     },
     {
       "tag": "전쟁",
-      "text": "국제유가 혼조세, 중동 긴장에도 러시아·우크라이나 전쟁 완화 기대감 반영",
-      "impact": "neg",
-      "published": "Thu, 03 Sep 2026 23:46:36 GMT"
+      "text": "국제유가 100달러 눈앞…중동 확전 비상",
+      "impact": "neutral",
+      "published": "Tue, 08 Sep 2026 02:03:00 GMT"
     },
     {
       "tag": "전쟁",
