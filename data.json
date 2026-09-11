@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-09-10T12:10:49",
+  "updatedAt": "2026-09-11T12:09:15",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6995.39,
-      "change": 4.61
+      "value": 6909.91,
+      "change": -1.76
     },
     {
       "name": "KOSDAQ",
-      "value": 822.19,
-      "change": 1.07
+      "value": 820.64,
+      "change": -1.95
     },
     {
       "name": "S&P 500",
-      "value": 7636.36,
-      "change": -0.48
+      "value": 7591.7,
+      "change": -0.58
     },
     {
       "name": "NASDAQ",
-      "value": 26253.34,
-      "change": -0.64
+      "value": 26081.72,
+      "change": -0.65
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1343.08,
-    "change": 0.29
+    "value": 1342.57,
+    "change": 0.25
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 269000.0,
-      "change": -0.19,
-      "prevClose": 269500.0,
+      "price": 259500.0,
+      "change": -3.53,
+      "prevClose": 269000.0,
       "trend": [
-        0.9312,
-        0.9294,
-        0.9498,
-        1.0037,
-        1.0019,
-        1.0019,
+        0.9634,
+        0.9846,
+        1.0405,
+        1.0385,
+        1.0385,
+        1.0366,
         1.0
       ],
-      "volume": 21010910,
+      "volume": 13938673,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1853000.0,
-      "change": -0.16,
-      "prevClose": 1856000.0,
+      "price": 1812000.0,
+      "change": -2.21,
+      "prevClose": 1853000.0,
       "trend": [
-        0.8705,
-        0.8613,
-        0.8888,
-        0.9622,
-        0.9676,
-        1.0016,
+        0.8808,
+        0.9089,
+        0.984,
+        0.9895,
+        1.0243,
+        1.0226,
         1.0
       ],
-      "volume": 4375585,
+      "volume": 2620493,
       "reasons": []
     },
     {
@@ -74,38 +74,18 @@
       "code": "009150",
       "logo": "전기",
       "price": 1400000.0,
-      "change": -0.28,
-      "prevClose": 1404000.0,
+      "change": 0.0,
+      "prevClose": 1400000.0,
       "trend": [
-        1.0,
         0.9629,
         1.0007,
         1.0386,
         0.9786,
         1.0029,
+        1.0,
         1.0
       ],
-      "volume": 551943,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "Intel",
-      "code": "INTC",
-      "logo": "INTC",
-      "price": 106.24,
-      "change": 1.69,
-      "prevClose": 104.47,
-      "trend": [
-        0.8425,
-        0.8374,
-        0.8476,
-        0.8629,
-        0.9017,
-        0.9833,
-        1.0
-      ],
-      "volume": 96611700,
+      "volume": 599185,
       "reasons": []
     },
     {
@@ -113,96 +93,116 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 223.67,
-      "change": -0.91,
-      "prevClose": 225.73,
+      "price": 218.36,
+      "change": -2.26,
+      "prevClose": 223.42,
       "trend": [
-        0.9871,
-        0.9721,
-        1.0033,
-        1.0214,
-        1.0299,
-        1.0092,
+        0.9947,
+        1.0266,
+        1.045,
+        1.0538,
+        1.0326,
+        1.0232,
         1.0
       ],
-      "volume": 82737000,
+      "volume": 105482000,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "Broadcom",
-      "code": "AVGO",
-      "logo": "AVGO",
-      "price": 364.38,
-      "change": -1.13,
-      "prevClose": 368.56,
+      "name": "Intel",
+      "code": "INTC",
+      "logo": "INTC",
+      "price": 100.32,
+      "change": -5.57,
+      "prevClose": 106.24,
       "trend": [
-        1.0164,
-        1.0145,
-        1.0078,
-        0.9802,
-        0.9822,
-        1.0115,
+        0.8869,
+        0.8976,
+        0.9138,
+        0.9549,
+        1.0414,
+        1.059,
         1.0
       ],
-      "volume": 25870100,
+      "volume": 96354400,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "Micron",
+      "code": "MU",
+      "logo": "MU",
+      "price": 977.41,
+      "change": -4.9,
+      "prevClose": 1027.77,
+      "trend": [
+        0.955,
+        0.9782,
+        0.9803,
+        1.0401,
+        1.0234,
+        1.0515,
+        1.0
+      ],
+      "volume": 26071000,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "“삼전닉스만 샀다면 배 아플 만하네”…한 달 새 30% 뛴 반도체 장비주 ETF",
+      "text": "“반도체 같이 하자” 최태원 제안에…일본 키옥시아가 거절한 이유는? [잇슈 머니]",
       "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 05:56:01 GMT"
+      "published": "Thu, 10 Sep 2026 22:05:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "삼성전자 '월세 꼼수' 논란...줄해고 위기? [앵커리포트]",
+      "text": "“일론 머스크가 좋아할 듯” 2040년 달에 반도체 공장 짓겠다는 ‘이 기업’",
       "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 09:10:00 GMT"
+      "published": "Fri, 11 Sep 2026 05:36:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피, 중동 악재에도 '7천피' 사수…'자사주 매입' 하단 지지(종합)",
+      "text": "중동 불안에 ’기름값·국채금리’ 급등…코스피 7,000 반납",
       "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 07:15:21 GMT"
+      "published": "Fri, 11 Sep 2026 11:17:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "삼성·SK하이닉스 130조 원 쐈는데… 코스피는 왜 여전히 제자리일까",
+      "text": "유가 100달러에 코스피 7,000 반납...삼전닉스 3%↓",
       "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 08:47:11 GMT"
+      "published": "Fri, 11 Sep 2026 07:40:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "\"美법무부, 엔비디아·그록 27조원 반독점 거래 조사\"",
+      "text": "AGI 띄우는 젠슨 황…속내는 엔비디아 패권 강화?",
       "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 08:02:00 GMT"
+      "published": "Fri, 11 Sep 2026 09:39:19 GMT"
     },
     {
       "tag": "미국",
-      "text": "국내 최장수 나스닥100 ETF … 올해 개인 순매수 2조원 돌파",
+      "text": "나스닥, 가상화폐 거래소 크라켄의 모회사에 1억달러 투자",
+      "impact": "neutral",
+      "published": "Fri, 11 Sep 2026 06:49:56 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "파이퍼 샌들러 \"AI 에이전트 확산…엔비디아·AMD 비중확대\"",
       "impact": "pos",
-      "published": "Thu, 10 Sep 2026 08:48:26 GMT"
+      "published": "Fri, 11 Sep 2026 01:07:02 GMT"
     },
     {
       "tag": "미국",
-      "text": "랙스페이스 주가, 엔비디아 파트너십 발표에 13% 급등",
+      "text": "엔비디아, 美 팔란티어와 'AI 공급망' 구축…부품 조달도 AI로",
       "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 11:32:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "미 법무부, 엔비디아·그록 26조 원대 거래 조사‥반독점 심사 회피 의혹",
-      "impact": "neutral",
-      "published": "Thu, 10 Sep 2026 07:27:49 GMT"
+      "published": "Fri, 11 Sep 2026 11:13:13 GMT"
     },
     {
       "tag": "전쟁",
-      "text": "[국제유가] 중동 전쟁 다시 격화…브렌트 다시 100달러 돌파",
-      "impact": "neg",
-      "published": "Wed, 09 Sep 2026 23:39:18 GMT"
+      "text": "국제유가, 중동분쟁 격화 등 영향 상승세 지속-WTI도 배럴당 100달러 돌파⋯국제금값, 달러강세 등에 하락반전-온스당 4400달러대",
+      "impact": "pos",
+      "published": "Thu, 10 Sep 2026 21:34:23 GMT"
     },
     {
       "tag": "전쟁",
