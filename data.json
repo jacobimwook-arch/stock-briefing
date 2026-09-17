@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-09-16T12:32:59",
+  "updatedAt": "2026-09-17T12:32:56",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6717.97,
-      "change": 1.37
+      "value": 6724.34,
+      "change": 0.09
     },
     {
       "name": "KOSDAQ",
-      "value": 815.98,
-      "change": 0.44
+      "value": 821.67,
+      "change": 0.7
     },
     {
       "name": "S&P 500",
-      "value": 7585.73,
+      "value": 7551.81,
       "change": -0.45
     },
     {
       "name": "NASDAQ",
-      "value": 25981.57,
-      "change": -0.78
+      "value": 25978.43,
+      "change": -0.01
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1367.48,
-    "change": 1.63
+    "value": 1379.01,
+    "change": 1.13
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 253500.0,
-      "change": 1.2,
-      "prevClose": 250500.0,
+      "price": 256000.0,
+      "change": 0.99,
+      "prevClose": 253500.0,
       "trend": [
-        1.0631,
-        1.0631,
-        1.0611,
-        1.0237,
-        0.9803,
-        0.9882,
+        1.0527,
+        1.0508,
+        1.0137,
+        0.9707,
+        0.9785,
+        0.9902,
         1.0
       ],
-      "volume": 11438019,
+      "volume": 11308614,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1757000.0,
-      "change": 2.63,
-      "prevClose": 1712000.0,
+      "price": 1766000.0,
+      "change": 0.51,
+      "prevClose": 1757000.0,
       "trend": [
-        1.0205,
-        1.0563,
-        1.0546,
-        1.0313,
-        0.9579,
-        0.9744,
+        1.051,
+        1.0493,
+        1.026,
+        0.953,
+        0.9694,
+        0.9949,
         1.0
       ],
-      "volume": 2807337,
+      "volume": 2673866,
       "reasons": []
     },
     {
@@ -73,39 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1372000.0,
-      "change": 3.16,
-      "prevClose": 1330000.0,
+      "price": 1351000.0,
+      "change": -1.53,
+      "prevClose": 1372000.0,
       "trend": [
-        0.9985,
-        1.0233,
-        1.0204,
-        1.0204,
-        0.9636,
-        0.9694,
+        1.0392,
+        1.0363,
+        1.0363,
+        0.9785,
+        0.9845,
+        1.0155,
         1.0
       ],
-      "volume": 430275,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "NVIDIA",
-      "code": "NVDA",
-      "logo": "NV",
-      "price": 212.17,
-      "change": 0.57,
-      "prevClose": 210.96,
-      "trend": [
-        1.0845,
-        1.0627,
-        1.053,
-        1.0292,
-        1.0288,
-        0.9943,
-        1.0
-      ],
-      "volume": 87726200,
+      "volume": 429168,
       "reasons": []
     },
     {
@@ -113,19 +93,39 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 97.14,
-      "change": -0.05,
-      "prevClose": 97.19,
+      "price": 101.05,
+      "change": 4.03,
+      "prevClose": 97.14,
       "trend": [
-        0.9862,
-        1.0755,
-        1.0937,
-        1.0327,
-        1.0597,
-        1.0005,
+        1.0338,
+        1.0514,
+        0.9928,
+        1.0187,
+        0.9618,
+        0.9613,
         1.0
       ],
-      "volume": 84839200,
+      "volume": 119111400,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "NVIDIA",
+      "code": "NVDA",
+      "logo": "NV",
+      "price": 213.9,
+      "change": 0.82,
+      "prevClose": 212.17,
+      "trend": [
+        1.0541,
+        1.0445,
+        1.0209,
+        1.0205,
+        0.9863,
+        0.9919,
+        1.0
+      ],
+      "volume": 96079300,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "Broadcom",
       "code": "AVGO",
       "logo": "AVGO",
-      "price": 339.27,
-      "change": -1.58,
-      "prevClose": 344.72,
+      "price": 339.51,
+      "change": 0.07,
+      "prevClose": 339.27,
       "trend": [
-        1.0549,
-        1.0863,
-        1.074,
-        1.0635,
-        1.067,
-        1.0161,
+        1.0856,
+        1.0733,
+        1.0628,
+        1.0662,
+        1.0153,
+        0.9993,
         1.0
       ],
-      "volume": 24736900,
+      "volume": 23063100,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 반등해 6700선 회복…삼전닉스 급등",
-      "impact": "pos",
-      "published": "Wed, 16 Sep 2026 06:40:28 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "[단독] '재정 비상' 경기도, 반도체 클러스터 용역비 8개 시에 분담 요청",
+      "text": "“삼성전자 직원은 양반집 딸이고 우리는 머슴”···하청노동자의 ‘가난한 호황’",
       "impact": "neutral",
-      "published": "Wed, 16 Sep 2026 06:30:04 GMT"
+      "published": "Thu, 17 Sep 2026 07:35:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "반도체 타고 반등…코스피 6,700선 회복",
-      "impact": "pos",
-      "published": "Wed, 16 Sep 2026 11:48:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "“SK하이닉스, 인텔과 미국서 메모리 생산 협상 중”",
+      "text": "[비즈톡톡] 삼성전자 광고에 심리학자 등장한 이유는… “아이폰과 이별이 어려운가요?”",
       "impact": "neutral",
-      "published": "Wed, 16 Sep 2026 09:06:00 GMT"
+      "published": "Thu, 17 Sep 2026 06:44:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "성과급 수억 받는 '반도체 부자'…종착지는 결국 '이곳'",
+      "impact": "neutral",
+      "published": "Wed, 16 Sep 2026 22:00:04 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "SK하이닉스, 내달 130여개 협력사 임직원·가족 3만명 초청행사",
+      "impact": "neutral",
+      "published": "Thu, 17 Sep 2026 05:44:39 GMT"
     },
     {
       "tag": "미국",
-      "text": "“美연준 금리인상 확률 92%”… 기업 자금조달-투자위축 우려",
+      "text": "미 연준, 3년2개월 만에 금리 인상…워시 “물가 너무 높아”",
+      "impact": "neutral",
+      "published": "Thu, 17 Sep 2026 09:26:00 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "트럼프, 연준 금리 인상에 즉각 반발···“1% 이하로 신속하게 낮춰라”",
+      "impact": "neutral",
+      "published": "Wed, 16 Sep 2026 23:29:00 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "금리 올린 연준, 그런데 이게 끝이 아니다…불안한 전망 [지금이뉴스]",
+      "impact": "neutral",
+      "published": "Thu, 17 Sep 2026 09:20:00 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "트럼프 반대에도 금리 인상‥'인플레 전쟁' 선언한 미국 연준",
       "impact": "neg",
-      "published": "Tue, 15 Sep 2026 19:30:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "[이종혁의 투자] 연준은 'AI 속도조절' 엄포에 반응할까",
-      "impact": "neutral",
-      "published": "Wed, 16 Sep 2026 04:20:07 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "연준 금리 인상 앞두고 역사가 주는 3가지 교훈",
-      "impact": "neutral",
-      "published": "Wed, 16 Sep 2026 11:06:00 GMT"
-    },
-    {
-      "tag": "미국",
-      "text": "시스코, 엔비디아와 파트너십 확대...온프레미스 자체 관리형 스플렁크 AI 제공",
-      "impact": "pos",
-      "published": "Wed, 16 Sep 2026 04:12:07 GMT"
+      "published": "Thu, 17 Sep 2026 10:46:12 GMT"
     },
     {
       "tag": "전쟁",
@@ -206,9 +206,9 @@
     },
     {
       "tag": "전쟁",
-      "text": "국제유가, 중동분쟁 격화 등 영향 상승세 지속⋯WTI도 배럴당 100달러 넘어서",
-      "impact": "pos",
-      "published": "Thu, 10 Sep 2026 21:41:29 GMT"
+      "text": "국제유가 혼조세, 중동 긴장에도 러시아·우크라이나 전쟁 완화 기대감 반영",
+      "impact": "neg",
+      "published": "Thu, 03 Sep 2026 23:46:36 GMT"
     }
   ],
   "summary": ""
