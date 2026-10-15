@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-10-14T12:48:34",
+  "updatedAt": "2026-10-15T12:34:57",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 6008.81,
-      "change": -0.44
+      "value": 5554.22,
+      "change": -7.57
     },
     {
       "name": "KOSDAQ",
-      "value": 823.88,
-      "change": -1.57
+      "value": 760.82,
+      "change": -7.65
     },
     {
       "name": "S&P 500",
-      "value": 7805.45,
-      "change": -0.02
+      "value": 7718.94,
+      "change": -1.11
     },
     {
       "name": "NASDAQ",
-      "value": 27204.38,
-      "change": -0.15
+      "value": 26692.87,
+      "change": -1.88
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1339.73,
-    "change": 0.42
+    "value": 1346.4,
+    "change": 0.45
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 234500.0,
-      "change": 0.21,
-      "prevClose": 234000.0,
+      "price": 207500.0,
+      "change": -11.51,
+      "prevClose": 234500.0,
       "trend": [
-        1.177,
-        1.1642,
-        1.1471,
-        1.1215,
-        1.0704,
-        0.9979,
+        1.3157,
+        1.2964,
+        1.2675,
+        1.2096,
+        1.1277,
+        1.1301,
         1.0
       ],
-      "volume": 17382089,
+      "volume": 33002824,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1425000.0,
-      "change": -2.13,
-      "prevClose": 1456000.0,
+      "price": 1238000.0,
+      "change": -13.12,
+      "prevClose": 1425000.0,
       "trend": [
-        1.2926,
-        1.2519,
-        1.2035,
-        1.1832,
-        1.1263,
-        1.0218,
+        1.441,
+        1.3853,
+        1.3619,
+        1.2964,
+        1.1761,
+        1.1511,
         1.0
       ],
-      "volume": 3562353,
+      "volume": 5892668,
       "reasons": []
     },
     {
@@ -73,39 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 1377000.0,
-      "change": -0.29,
-      "prevClose": 1381000.0,
+      "price": 1122000.0,
+      "change": -18.52,
+      "prevClose": 1377000.0,
       "trend": [
-        1.1452,
-        1.2229,
-        1.167,
-        1.1322,
-        1.0842,
-        1.0029,
+        1.5009,
+        1.4323,
+        1.3895,
+        1.3307,
+        1.2308,
+        1.2273,
         1.0
       ],
-      "volume": 549864,
-      "reasons": []
-    },
-    {
-      "group": "us_semi",
-      "name": "Intel",
-      "code": "INTC",
-      "logo": "INTC",
-      "price": 102.81,
-      "change": 1.44,
-      "prevClose": 101.35,
-      "trend": [
-        1.1301,
-        1.0943,
-        1.1003,
-        1.0415,
-        1.0184,
-        0.9858,
-        1.0
-      ],
-      "volume": 87718300,
+      "volume": 1239981,
       "reasons": []
     },
     {
@@ -113,19 +93,39 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 228.52,
-      "change": 0.97,
-      "prevClose": 226.32,
+      "price": 221.3,
+      "change": -3.16,
+      "prevClose": 228.52,
       "trend": [
-        1.0454,
-        1.0469,
-        1.0392,
-        1.0086,
-        1.0033,
-        0.9904,
+        1.0811,
+        1.0731,
+        1.0415,
+        1.0361,
+        1.0227,
+        1.0326,
         1.0
       ],
-      "volume": 83846800,
+      "volume": 117249000,
+      "reasons": []
+    },
+    {
+      "group": "us_semi",
+      "name": "Intel",
+      "code": "INTC",
+      "logo": "INTC",
+      "price": 98.12,
+      "change": -4.56,
+      "prevClose": 102.81,
+      "trend": [
+        1.1466,
+        1.1529,
+        1.0913,
+        1.0671,
+        1.0329,
+        1.0478,
+        1.0
+      ],
+      "volume": 103435600,
       "reasons": []
     },
     {
@@ -133,82 +133,82 @@
       "name": "Micron",
       "code": "MU",
       "logo": "MU",
-      "price": 953.19,
-      "change": -3.62,
-      "prevClose": 989.04,
+      "price": 914.13,
+      "change": -4.08,
+      "prevClose": 953.04,
       "trend": [
-        1.1162,
-        1.0969,
-        1.1414,
-        1.0867,
-        1.0795,
-        1.0376,
+        1.1436,
+        1.19,
+        1.133,
+        1.1255,
+        1.0818,
+        1.0426,
         1.0
       ],
-      "volume": 29017300,
+      "volume": 27127700,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 하락 전환해 6000선 붕괴…23만전자·140만닉스",
-      "impact": "neg",
-      "published": "Wed, 14 Oct 2026 06:10:00 GMT"
+      "text": "코스피 8% 넘게 떨어져 서킷 브레이커…‘7월 폭락장’ 이후 처음",
+      "impact": "neutral",
+      "published": "Thu, 15 Oct 2026 07:51:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "끝없는 코스피 탈출 행렬…200조원 팔아치운 외국인 어디로",
-      "impact": "neutral",
-      "published": "Wed, 14 Oct 2026 07:36:23 GMT"
+      "text": "‘죽음의 십자가’ 그린 코스피... 장기 하락하나, 운명의 2주",
+      "impact": "neg",
+      "published": "Wed, 14 Oct 2026 23:43:15 GMT"
     },
     {
       "tag": "한국",
-      "text": "안현 SK하이닉스 사장 \"HBF 최종 규격 내년 1월 확정\"",
+      "text": "하이닉스 11% 폭락, 삼성전자 9%↓…7월 말 이후 낙폭 최대(종합)",
       "impact": "neutral",
-      "published": "Wed, 14 Oct 2026 08:51:15 GMT"
+      "published": "Thu, 15 Oct 2026 07:06:43 GMT"
     },
     {
       "tag": "한국",
-      "text": "창신메모리 쇼크가 던진 질문…전체 수출 절반이 반도체, 깊어지는 명암",
+      "text": "‘검은 목요일’ 130만닉스 깨졌다…코스피·코스닥 장중 6% 급락",
+      "impact": "neutral",
+      "published": "Thu, 15 Oct 2026 00:02:55 GMT"
+    },
+    {
+      "tag": "미국",
+      "text": "[뉴욕증시] AI 테마 뒤흔든 코어위브 쇼크…나스닥 1.88%↓",
       "impact": "neg",
-      "published": "Wed, 14 Oct 2026 07:51:00 GMT"
+      "published": "Wed, 14 Oct 2026 21:01:19 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, RTX 스파크 최적화 소프트웨어 배포...이달 노트북 출시",
+      "text": "미국 증시 참혹한 악재 발생...\"미국 중간 선거 갈림길\" [자막뉴스]",
       "impact": "neutral",
-      "published": "Wed, 14 Oct 2026 08:56:51 GMT"
+      "published": "Wed, 14 Oct 2026 23:22:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "美 연준 윌리엄스 \"내년 추가 금리 인상 불필요 전망\"…물가 둔화 기대 By The Guru",
+      "text": "미 달러화 약세…연준 금리인상 기대 후퇴 속 국채 금리 급락",
       "impact": "neutral",
-      "published": "Wed, 14 Oct 2026 08:14:24 GMT"
+      "published": "Thu, 15 Oct 2026 11:51:38 GMT"
     },
     {
       "tag": "미국",
-      "text": "'빅 쇼트' 버리 \"AI 약세 베팅 압축…나스닥100·반도체 ETF 풋옵션 집중\"",
+      "text": "뉴욕증시, 물가 충격·반도체 약세에 하락…나스닥 1.9%↓(종합)",
       "impact": "neg",
-      "published": "Tue, 13 Oct 2026 22:47:34 GMT"
+      "published": "Wed, 14 Oct 2026 21:21:10 GMT"
     },
     {
-      "tag": "미국",
-      "text": "美 애질리티 로보틱스, 11월 나스닥 입성 '카운트다운'",
+      "tag": "전쟁",
+      "text": "내리려는 트럼프 vs 올리려는 이란…중간선거 앞두고 유가 줄다리기",
       "impact": "neutral",
-      "published": "Wed, 14 Oct 2026 09:09:20 GMT"
+      "published": "Thu, 15 Oct 2026 02:26:13 GMT"
     },
     {
       "tag": "전쟁",
       "text": "‘러우戰 수준’ LNG·유가…유럽 비축↓·중동 확전에 겨울 가격불안↑",
       "impact": "neutral",
       "published": "Mon, 12 Oct 2026 07:10:03 GMT"
-    },
-    {
-      "tag": "전쟁",
-      "text": "국제유가 러시아 경유공급 확대에도 중동분쟁 격화 우려에 혼조세-WTI 4거래일 연속 상승⋯국제금값, 달러강세 등에 2거래일째 하락",
-      "impact": "pos",
-      "published": "Tue, 13 Oct 2026 21:48:00 GMT"
     }
   ],
   "summary": ""
