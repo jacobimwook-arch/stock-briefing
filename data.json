@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-11-05T15:19:17",
+  "updatedAt": "2026-11-06T14:55:37",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 5383.8,
-      "change": -5.28
+      "value": 5059.69,
+      "change": -6.02
     },
     {
       "name": "KOSDAQ",
-      "value": 678.41,
-      "change": -5.11
+      "value": 644.27,
+      "change": -5.03
     },
     {
       "name": "S&P 500",
-      "value": 7521.24,
-      "change": -2.18
+      "value": 7428.96,
+      "change": 1.02
     },
     {
       "name": "NASDAQ",
-      "value": 24787.84,
-      "change": -3.69
+      "value": 24757.04,
+      "change": 1.82
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1349.47,
-    "change": 0.49
+    "value": 1362.23,
+    "change": 1.65
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 201500.0,
-      "change": -9.03,
-      "prevClose": 221500.0,
+      "price": 193500.0,
+      "change": -3.97,
+      "prevClose": 201500.0,
       "trend": [
-        1.2159,
-        1.1439,
-        1.0943,
-        1.1414,
-        1.1017,
-        1.0993,
+        1.1912,
+        1.1395,
+        1.1886,
+        1.1473,
+        1.1447,
+        1.0413,
         1.0
       ],
-      "volume": 24527083,
+      "volume": 35068743,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1262000.0,
-      "change": -11.13,
-      "prevClose": 1420000.0,
+      "price": 1176000.0,
+      "change": -6.81,
+      "prevClose": 1262000.0,
       "trend": [
-        1.1949,
-        1.2013,
-        1.1022,
-        1.1727,
-        1.1204,
-        1.1252,
+        1.2891,
+        1.1828,
+        1.2585,
+        1.2024,
+        1.2075,
+        1.0731,
         1.0
       ],
-      "volume": 4280048,
+      "volume": 7789034,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 950000.0,
-      "change": -15.1,
-      "prevClose": 1119000.0,
+      "price": 894000.0,
+      "change": -5.89,
+      "prevClose": 950000.0,
       "trend": [
-        1.3842,
-        1.3495,
-        1.2274,
-        1.2695,
-        1.1853,
-        1.1779,
+        1.434,
+        1.3043,
+        1.349,
+        1.2595,
+        1.2517,
+        1.0626,
         1.0
       ],
-      "volume": 1401373,
+      "volume": 1581540,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 187.0,
-      "change": -6.56,
-      "prevClose": 200.13,
+      "price": 192.95,
+      "change": 6.25,
+      "prevClose": 181.6,
       "trend": [
-        1.1518,
-        1.1426,
-        1.0943,
-        1.0805,
-        1.1053,
-        1.0702,
+        1.1074,
+        1.0606,
+        1.0472,
+        1.0712,
+        1.0372,
+        0.9412,
         1.0
       ],
-      "volume": 66916386,
+      "volume": 44251642,
       "reasons": []
     },
     {
@@ -113,90 +113,90 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 53.67,
-      "change": -7.89,
-      "prevClose": 58.27,
+      "price": 55.98,
+      "change": 7.15,
+      "prevClose": 52.25,
       "trend": [
-        1.78,
-        1.7155,
-        1.2253,
-        1.1174,
-        1.1282,
-        1.0857,
+        1.6446,
+        1.1746,
+        1.0712,
+        1.0816,
+        1.0408,
+        0.9333,
         1.0
       ],
-      "volume": 58662294,
+      "volume": 37321265,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "Micron",
-      "code": "MU",
-      "logo": "MU",
-      "price": 706.29,
-      "change": -11.18,
-      "prevClose": 795.23,
+      "name": "AMD",
+      "code": "AMD",
+      "logo": "AMD",
+      "price": 454.99,
+      "change": 12.51,
+      "prevClose": 404.4,
       "trend": [
-        1.3921,
-        1.3228,
-        1.2527,
-        1.1802,
-        1.2107,
-        1.1259,
+        1.2449,
+        1.1095,
+        1.026,
+        1.0635,
+        1.0743,
+        0.8888,
         1.0
       ],
-      "volume": 18413661,
+      "volume": 12730433,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 5.28% 하락 마감... 삼성전자 7%,SK하이닉스 9% 폭락",
+      "text": "[속보]코스피, 8% 폭락에 서킷브레이커…5000선 붕괴",
+      "impact": "neutral",
+      "published": "Fri, 06 Nov 2026 00:08:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "\"전국민 우울증 걸릴 판\" 코스피 폭락, 개미 비명",
+      "impact": "neutral",
+      "published": "Fri, 06 Nov 2026 01:28:10 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "‘미 반도체 쇼크’ 코스피 5천선 붕괴…개장 직후 8% 급락",
       "impact": "neg",
-      "published": "Thu, 05 Nov 2026 07:09:36 GMT"
+      "published": "Fri, 06 Nov 2026 04:47:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "속보 코스피·코스닥 나란히 매도 사이드카...삼전 한때 20만 원 무너져",
+      "text": "[뉴스잇] 파랗게 질린 AI 반도체…장중 5,000선 붕괴",
       "impact": "neutral",
-      "published": "Thu, 05 Nov 2026 06:43:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "반도체 급락에 코스피 5%↓…자동차는 강세",
-      "impact": "pos",
-      "published": "Thu, 05 Nov 2026 11:07:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "미 선거에 흔들린 반도체…복잡해진 우리 경제 셈법",
-      "impact": "neutral",
-      "published": "Thu, 05 Nov 2026 12:07:00 GMT"
+      "published": "Fri, 06 Nov 2026 09:10:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "\"中 '키미' 개발사 문샷, 유럽서 엔비디아 블랙웰 임대 추진\"",
+      "text": "뉴욕증시 급락 반전…나스닥 장중 4% 이상↓ 조정국면 진입",
       "impact": "neutral",
-      "published": "Thu, 05 Nov 2026 14:07:19 GMT"
+      "published": "Thu, 05 Nov 2026 16:50:05 GMT"
     },
     {
       "tag": "미국",
-      "text": "훼스토, 엔비디아 손잡고 Physical AI용 고정밀 디지털 트윈 개발",
+      "text": "제이앤티씨, 엔비디아 유리기판 공급사 등록",
       "impact": "neutral",
-      "published": "Thu, 05 Nov 2026 07:49:37 GMT"
+      "published": "Fri, 06 Nov 2026 01:12:39 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 오픈 AI 'GPT-6 아스트라' 활용해 로봇 개발 자동화",
+      "text": "엔비디아 칩 수입에 제동 건 중국…\"H200 60만 장 홍콩서 대기\"",
       "impact": "neutral",
-      "published": "Thu, 05 Nov 2026 12:35:44 GMT"
+      "published": "Fri, 06 Nov 2026 07:50:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "Box, 엔비디아와 협력해 AI 정보 검색 엔진 공개",
+      "text": "엔비디아, 미국 노후 전화국 130곳 AI 데이터센터로 전환 추진",
       "impact": "neutral",
-      "published": "Thu, 05 Nov 2026 14:17:00 GMT"
+      "published": "Fri, 06 Nov 2026 08:25:00 GMT"
     },
     {
       "tag": "전쟁",
