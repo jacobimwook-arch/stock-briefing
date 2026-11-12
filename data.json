@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-11-11T15:01:38",
+  "updatedAt": "2026-11-12T15:54:32",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 5375.36,
-      "change": 2.6
+      "value": 5342.73,
+      "change": -0.61
     },
     {
       "name": "KOSDAQ",
-      "value": 705.1,
-      "change": 5.62
+      "value": 696.53,
+      "change": -1.22
     },
     {
       "name": "S&P 500",
-      "value": 7587.54,
-      "change": 0.89
+      "value": 7614.17,
+      "change": -0.07
     },
     {
       "name": "NASDAQ",
-      "value": 25385.47,
-      "change": 1.28
+      "value": 25408.29,
+      "change": -0.23
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1339.94,
-    "change": -0.29
+    "value": 1333.86,
+    "change": -0.6
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 208000.0,
-      "change": 5.42,
-      "prevClose": 197300.0,
+      "price": 206500.0,
+      "change": -0.72,
+      "prevClose": 208000.0,
       "trend": [
-        1.0673,
-        1.0649,
-        0.9688,
-        0.9303,
-        0.899,
-        0.9486,
+        1.0726,
+        0.9758,
+        0.937,
+        0.9056,
+        0.9554,
+        1.0073,
         1.0
       ],
-      "volume": 15900858,
+      "volume": 19504253,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1291000.0,
-      "change": 7.76,
-      "prevClose": 1198000.0,
+      "price": 1241000.0,
+      "change": -3.87,
+      "prevClose": 1291000.0,
       "trend": [
-        1.0953,
-        1.0999,
-        0.9775,
-        0.9109,
-        0.8637,
-        0.928,
+        1.1442,
+        1.0169,
+        0.9476,
+        0.8985,
+        0.9654,
+        1.0403,
         1.0
       ],
-      "volume": 3213796,
+      "volume": 4150272,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 944000.0,
-      "change": 8.51,
-      "prevClose": 870000.0,
+      "price": 873000.0,
+      "change": -7.52,
+      "prevClose": 944000.0,
       "trend": [
-        1.1928,
-        1.1854,
-        1.0064,
-        0.947,
-        0.8633,
-        0.9216,
+        1.2818,
+        1.0882,
+        1.0241,
+        0.9336,
+        0.9966,
+        1.0813,
         1.0
       ],
-      "volume": 654705,
+      "volume": 932603,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 172.99,
-      "change": 2.43,
-      "prevClose": 168.89,
+      "price": 164.71,
+      "change": -5.19,
+      "prevClose": 173.73,
       "trend": [
-        1.1948,
-        1.1569,
-        1.0498,
-        1.0789,
-        1.0328,
-        0.9763,
+        1.215,
+        1.1025,
+        1.1331,
+        1.0848,
+        1.0254,
+        1.0548,
         1.0
       ],
-      "volume": 73670366,
+      "volume": 421541613,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 61.84,
-      "change": 6.38,
-      "prevClose": 58.13,
+      "price": 61.82,
+      "change": -1.08,
+      "prevClose": 62.5,
       "trend": [
-        0.9791,
-        0.9423,
-        0.8449,
-        0.9101,
-        0.9601,
-        0.94,
+        0.9425,
+        0.8452,
+        0.9104,
+        0.9603,
+        0.9403,
+        1.011,
         1.0
       ],
-      "volume": 27792519,
+      "volume": 31250489,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "AMD",
       "code": "AMD",
       "logo": "AMD",
-      "price": 534.22,
-      "change": 3.69,
-      "prevClose": 515.21,
+      "price": 576.64,
+      "change": 4.29,
+      "prevClose": 552.9,
       "trend": [
-        0.9058,
-        0.9149,
-        0.757,
-        0.8406,
-        0.952,
-        0.9644,
+        0.8476,
+        0.7013,
+        0.7787,
+        0.882,
+        0.8935,
+        0.9588,
         1.0
       ],
-      "volume": 9666435,
+      "volume": 24724904,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "젠슨 황 스캔들, 대중 반도체 규제 강화로 이어지나",
+      "text": "[단독]삼성·SK, 정부에 SOS…\"반도체 공장 짓는데 26만명 필요\"",
+      "impact": "neutral",
+      "published": "Thu, 12 Nov 2026 07:15:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "‘독주’ 한국 반도체, 1986년 일본처럼?…“경제안보 리스크 자극” 우려",
       "impact": "neg",
-      "published": "Wed, 11 Nov 2026 12:45:00 GMT"
+      "published": "Thu, 12 Nov 2026 09:05:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피, 美 긴축 우려에도 강세…코스닥 5% 급등",
+      "text": "삼성전자, AI 안경 30종 공개",
       "impact": "neutral",
-      "published": "Wed, 11 Nov 2026 11:51:00 GMT"
+      "published": "Thu, 12 Nov 2026 14:00:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "“9천피 좋은 꿈을 꾸었습니다”…반도체 슈퍼사이클 계속돼야 7천피 간다는데 [오늘 나온 보고서]",
+      "text": "[책과 삶]K반도체를 낳은 DNA 팔만대장경서 시작됐다",
       "impact": "neutral",
-      "published": "Wed, 11 Nov 2026 00:01:27 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "SK하이닉스 LPDDR5X, 산업용 기능안전 인증 획득",
-      "impact": "neutral",
-      "published": "Wed, 11 Nov 2026 06:33:41 GMT"
+      "published": "Thu, 12 Nov 2026 11:52:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "\"차기 엔비디아 수장 후보로 리사 수 AMD CEO도 거론\"",
+      "text": "[속보] 로이터통신 \"젠슨황, 엔비디아 CEO 사퇴\"",
       "impact": "neutral",
-      "published": "Wed, 11 Nov 2026 05:52:46 GMT"
+      "published": "Thu, 12 Nov 2026 14:00:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "“‘젠슨 황 연인’ 앨리스 황, 10조원 규모 엔비디아 칩 중국으로 밀반입” 의혹 제기",
+      "text": "[속보] 젠슨황, 엔비디아 CEO 사퇴",
       "impact": "neutral",
-      "published": "Tue, 10 Nov 2026 22:53:00 GMT"
+      "published": "Thu, 12 Nov 2026 13:54:56 GMT"
     },
     {
       "tag": "미국",
-      "text": "\"젠슨황 연인, 10조원 엔비디아칩 中 밀반입\"",
+      "text": "‘AI 인프라 황제’ 젠슨 황, 불륜으로 엔비디아 CEO 사임",
       "impact": "neutral",
-      "published": "Wed, 11 Nov 2026 04:09:00 GMT"
+      "published": "Thu, 12 Nov 2026 14:35:07 GMT"
     },
     {
       "tag": "미국",
-      "text": "\"젠슨 황 내연녀, 10조 엔비디아 칩 중국으로 밀반입\"",
+      "text": "엔비디아 주식 쓸어담던 한국 개미들 어쩌나…'섬뜩한 전망'",
       "impact": "neutral",
-      "published": "Wed, 11 Nov 2026 03:23:00 GMT"
+      "published": "Thu, 12 Nov 2026 08:38:40 GMT"
     },
     {
       "tag": "전쟁",
@@ -206,9 +206,9 @@
     },
     {
       "tag": "전쟁",
-      "text": "중동·우크라이나 긴장 고조에 국제유가 급등…브렌트유 110달러 육박",
-      "impact": "neg",
-      "published": "Sat, 17 Oct 2026 07:00:00 GMT"
+      "text": "내년 국제유가 80달러 안팎…국제기구들, ‘중동 분쟁’ 변수",
+      "impact": "neutral",
+      "published": "Wed, 28 Oct 2026 07:00:00 GMT"
     }
   ],
   "summary": ""
