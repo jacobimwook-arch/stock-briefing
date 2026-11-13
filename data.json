@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-11-12T15:54:32",
+  "updatedAt": "2026-11-13T15:16:24",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 5342.73,
-      "change": -0.61
+      "value": 5290.53,
+      "change": -0.98
     },
     {
       "name": "KOSDAQ",
-      "value": 696.53,
-      "change": -1.22
+      "value": 699.66,
+      "change": 0.45
     },
     {
       "name": "S&P 500",
-      "value": 7614.17,
-      "change": -0.07
+      "value": 7520.95,
+      "change": -0.94
     },
     {
       "name": "NASDAQ",
-      "value": 25408.29,
-      "change": -0.23
+      "value": 25007.97,
+      "change": -1.41
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1333.86,
-    "change": -0.6
+    "value": 1336.98,
+    "change": 0.05
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 206500.0,
-      "change": -0.72,
-      "prevClose": 208000.0,
+      "price": 209000.0,
+      "change": 1.21,
+      "prevClose": 206500.0,
       "trend": [
-        1.0726,
-        0.9758,
-        0.937,
-        0.9056,
-        0.9554,
-        1.0073,
+        0.9641,
+        0.9258,
+        0.8947,
+        0.944,
+        0.9952,
+        0.988,
         1.0
       ],
-      "volume": 19504253,
+      "volume": 12822005,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1241000.0,
-      "change": -3.87,
-      "prevClose": 1291000.0,
+      "price": 1233000.0,
+      "change": -0.64,
+      "prevClose": 1241000.0,
       "trend": [
-        1.1442,
-        1.0169,
-        0.9476,
-        0.8985,
-        0.9654,
-        1.0403,
+        1.0235,
+        0.9538,
+        0.9043,
+        0.9716,
+        1.047,
+        1.0065,
         1.0
       ],
-      "volume": 4150272,
+      "volume": 3199812,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 873000.0,
-      "change": -7.52,
-      "prevClose": 944000.0,
+      "price": 864000.0,
+      "change": -1.03,
+      "prevClose": 873000.0,
       "trend": [
-        1.2818,
-        1.0882,
-        1.0241,
-        0.9336,
-        0.9966,
-        1.0813,
+        1.0995,
+        1.0347,
+        0.9433,
+        1.0069,
+        1.0926,
+        1.0104,
         1.0
       ],
-      "volume": 932603,
+      "volume": 798414,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 164.71,
-      "change": -5.19,
-      "prevClose": 173.73,
+      "price": 160.62,
+      "change": -3.35,
+      "prevClose": 166.19,
       "trend": [
-        1.215,
-        1.1025,
-        1.1331,
-        1.0848,
-        1.0254,
-        1.0548,
+        1.1306,
+        1.162,
+        1.1124,
+        1.0515,
+        1.0816,
+        1.0347,
         1.0
       ],
-      "volume": 421541613,
+      "volume": 122532033,
       "reasons": []
     },
     {
@@ -113,19 +113,19 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 61.82,
-      "change": -1.08,
-      "prevClose": 62.5,
+      "price": 58.16,
+      "change": -4.97,
+      "prevClose": 61.2,
       "trend": [
-        0.9425,
-        0.8452,
-        0.9104,
-        0.9603,
-        0.9403,
-        1.011,
+        0.8984,
+        0.9677,
+        1.0208,
+        0.9995,
+        1.0746,
+        1.0523,
         1.0
       ],
-      "volume": 31250489,
+      "volume": 23319798,
       "reasons": []
     },
     {
@@ -133,70 +133,70 @@
       "name": "AMD",
       "code": "AMD",
       "logo": "AMD",
-      "price": 576.64,
-      "change": 4.29,
-      "prevClose": 552.9,
+      "price": 533.32,
+      "change": -8.88,
+      "prevClose": 585.3,
       "trend": [
-        0.8476,
-        0.7013,
-        0.7787,
-        0.882,
-        0.8935,
-        0.9588,
+        0.7583,
+        0.842,
+        0.9536,
+        0.966,
+        1.0367,
+        1.0975,
         1.0
       ],
-      "volume": 24724904,
+      "volume": 13090322,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "[단독]삼성·SK, 정부에 SOS…\"반도체 공장 짓는데 26만명 필요\"",
-      "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 07:15:00 GMT"
+      "text": "상승 출발 코스피, 李간담회 직후 음전…외인도 '팔자'로",
+      "impact": "pos",
+      "published": "Fri, 13 Nov 2026 04:34:20 GMT"
     },
     {
       "tag": "한국",
-      "text": "‘독주’ 한국 반도체, 1986년 일본처럼?…“경제안보 리스크 자극” 우려",
+      "text": "증권가 ‘4천피’ 경고 나왔다…“젠슨 황 사임, 반도체 불확실성 커져” [오늘 나온 보고서]",
+      "impact": "neutral",
+      "published": "Thu, 12 Nov 2026 23:31:36 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "\"연매출 1조원 보인다\" 제주반도체 또 최대 실적 경신",
+      "impact": "neutral",
+      "published": "Fri, 13 Nov 2026 01:40:00 GMT"
+    },
+    {
+      "tag": "한국",
+      "text": "’젠슨 황 사임’에도 올랐던 코스피…외국인 매도에 하락",
       "impact": "neg",
-      "published": "Thu, 12 Nov 2026 09:05:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "삼성전자, AI 안경 30종 공개",
-      "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 14:00:00 GMT"
-    },
-    {
-      "tag": "한국",
-      "text": "[책과 삶]K반도체를 낳은 DNA 팔만대장경서 시작됐다",
-      "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 11:52:00 GMT"
+      "published": "Fri, 13 Nov 2026 11:56:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "[속보] 로이터통신 \"젠슨황, 엔비디아 CEO 사퇴\"",
+      "text": "젠슨 황 잃은 엔비디아…국내 수혜주는 '삼전·이수페타'",
       "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 14:00:00 GMT"
+      "published": "Fri, 13 Nov 2026 05:53:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "[속보] 젠슨황, 엔비디아 CEO 사퇴",
+      "text": "‘젠슨 황 후임’ 엔비디아 임시 CEO 콜렛 크레스는 누구?",
       "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 13:54:56 GMT"
+      "published": "Fri, 13 Nov 2026 14:48:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "‘AI 인프라 황제’ 젠슨 황, 불륜으로 엔비디아 CEO 사임",
+      "text": "젠슨 황 결국 퇴진, 임시 CEO “힘든 시기”…엔비디아 주가 폭락",
       "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 14:35:07 GMT"
+      "published": "Thu, 12 Nov 2026 22:02:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아 주식 쓸어담던 한국 개미들 어쩌나…'섬뜩한 전망'",
+      "text": "“보스 다시 데려와라” 엔비디아 직원들, 젠슨 황 복귀 요구",
       "impact": "neutral",
-      "published": "Thu, 12 Nov 2026 08:38:40 GMT"
+      "published": "Fri, 13 Nov 2026 06:27:00 GMT"
     },
     {
       "tag": "전쟁",
