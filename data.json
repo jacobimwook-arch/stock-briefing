@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-11-16T16:55:18",
+  "updatedAt": "2026-11-17T16:49:21",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 5100.5,
-      "change": -3.59
+      "value": 4968.48,
+      "change": -2.59
     },
     {
       "name": "KOSDAQ",
-      "value": 665.65,
-      "change": -4.86
+      "value": 650.06,
+      "change": -2.34
     },
     {
       "name": "S&P 500",
-      "value": 7465.43,
-      "change": -1.27
+      "value": 7310.9,
+      "change": -1.43
     },
     {
       "name": "NASDAQ",
-      "value": 24704.01,
-      "change": -1.72
+      "value": 24141.03,
+      "change": -1.5
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1335.4,
-    "change": 0.12
+    "value": 1334.98,
+    "change": 0.13
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 195000.0,
-      "change": -6.7,
-      "prevClose": 209000.0,
+      "price": 189800.0,
+      "change": -2.67,
+      "prevClose": 195000.0,
       "trend": [
-        0.9923,
-        0.959,
-        1.0118,
-        1.0667,
-        1.059,
-        1.0718,
+        0.9852,
+        1.0395,
+        1.0959,
+        1.088,
+        1.1012,
+        1.0274,
         1.0
       ],
-      "volume": 16131737,
+      "volume": 16500049,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1118000.0,
-      "change": -9.33,
-      "prevClose": 1233000.0,
+      "price": 1100000.0,
+      "change": -1.61,
+      "prevClose": 1118000.0,
       "trend": [
-        1.0519,
-        0.9973,
-        1.0716,
-        1.1547,
-        1.11,
-        1.1029,
+        1.0136,
+        1.0891,
+        1.1736,
+        1.1282,
+        1.1209,
+        1.0164,
         1.0
       ],
-      "volume": 4181125,
+      "volume": 3652852,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 779000.0,
-      "change": -9.84,
-      "prevClose": 864000.0,
+      "price": 748000.0,
+      "change": -3.98,
+      "prevClose": 779000.0,
       "trend": [
-        1.1476,
-        1.0462,
-        1.1168,
-        1.2118,
-        1.1207,
-        1.1091,
+        1.0896,
+        1.1631,
+        1.262,
+        1.1671,
+        1.1551,
+        1.0414,
         1.0
       ],
-      "volume": 937850,
+      "volume": 708435,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 158.9,
-      "change": -2.43,
-      "prevClose": 162.85,
+      "price": 153.76,
+      "change": -1.52,
+      "prevClose": 156.14,
       "trend": [
-        1.1746,
-        1.1244,
-        1.0629,
-        1.0933,
-        1.0459,
-        1.0249,
+        1.162,
+        1.0984,
+        1.1299,
+        1.0808,
+        1.0591,
+        1.0155,
         1.0
       ],
-      "volume": 151173752,
+      "volume": 168570352,
       "reasons": []
     },
     {
@@ -113,90 +113,90 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 55.72,
-      "change": -6.6,
-      "prevClose": 59.66,
+      "price": 53.67,
+      "change": -3.25,
+      "prevClose": 55.47,
       "trend": [
-        1.0101,
-        1.0655,
-        1.0433,
-        1.1217,
-        1.0984,
-        1.0707,
+        1.1062,
+        1.0831,
+        1.1645,
+        1.1403,
+        1.1116,
+        1.0335,
         1.0
       ],
-      "volume": 42880789,
+      "volume": 46822373,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "AMD",
-      "code": "AMD",
-      "logo": "AMD",
-      "price": 508.29,
-      "change": -4.83,
-      "prevClose": 534.06,
+      "name": "Micron",
+      "code": "MU",
+      "logo": "MU",
+      "price": 688.5,
+      "change": -4.24,
+      "prevClose": 719.02,
       "trend": [
-        0.8834,
-        1.0006,
-        1.0136,
-        1.0878,
-        1.1515,
-        1.0507,
+        1.0649,
+        1.0532,
+        1.1784,
+        1.1597,
+        1.1304,
+        1.0443,
         1.0
       ],
-      "volume": 19184175,
+      "volume": 16566664,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "美 법원, 삼성·SK하이닉스·마이크론 DRAM 담합소송 각하 기각",
+      "text": "코스피 ’5000피’도 깨졌다... 9개월 만에 최저 수준",
       "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 08:34:39 GMT"
+      "published": "Tue, 17 Nov 2026 08:06:11 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피 3.59% 급락, 5,100선으로 후퇴…코스닥도 4.8%↓(종합)",
+      "text": "\"의무공개매수 원안 통과시 코스피 4,200 급락 가능…PBR 1배\"",
       "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 07:10:48 GMT"
+      "published": "Tue, 17 Nov 2026 05:32:05 GMT"
     },
     {
       "tag": "한국",
-      "text": "외국인 매도 폭탄에…코스피 3%대 급락해 5100선 '턱걸이'",
+      "text": "젠슨황 충격에 결국 ‘5천피’ 붕괴…9개월여 만에 최저",
       "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 06:46:01 GMT"
+      "published": "Tue, 17 Nov 2026 06:36:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "‘호남권 반도체 국가산단’ 추진 공무원들에 포상금 1500만원",
+      "text": "코스피, AI 불안에 ’5천피’ 붕괴…9개월만 최저",
       "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 03:54:45 GMT"
+      "published": "Tue, 17 Nov 2026 10:34:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "젠슨 황, 엔비디아 복귀 가능할까…월가 전망 엇갈려",
-      "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 04:47:00 GMT"
+      "text": "[亞증시-종합] 엔비디아 실적 경계감 등에 일제히 하락",
+      "impact": "neg",
+      "published": "Tue, 17 Nov 2026 10:13:59 GMT"
     },
     {
       "tag": "미국",
-      "text": "“33% 빠졌다, 젠슨 황이 준 기회?”…엔비디아 4500억 폭풍매수한 서학개미",
+      "text": "제왕이 떠났다…엔비디아 실적 발표 무엇이 다른가",
       "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 13:00:41 GMT"
+      "published": "Tue, 17 Nov 2026 02:58:52 GMT"
     },
     {
       "tag": "미국",
-      "text": "“지금 불륜이 문제가 아닙니다”…엔비디아 성장성에 4554억 베팅한 서학개미",
-      "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 02:27:11 GMT"
+      "text": "엔비디아·AI 규제 투매 여파...코스피, 사흘 째 하락",
+      "impact": "neg",
+      "published": "Tue, 17 Nov 2026 02:55:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "칩 수출 통제 완화하더니…“트럼프, 엔비디아 주식 830억원 보유”",
+      "text": "젠슨황 감싼 트럼프…알고보니 \"엔비디아 주식 830억 보유\"",
       "impact": "neutral",
-      "published": "Mon, 16 Nov 2026 16:36:57 GMT"
+      "published": "Tue, 17 Nov 2026 11:07:00 GMT"
     },
     {
       "tag": "전쟁",
