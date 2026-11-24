@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-11-23T19:09:17",
+  "updatedAt": "2026-11-24T18:47:11",
   "indices": [
     {
       "name": "KOSPI",
-      "value": 4708.54,
-      "change": -3.31
+      "value": 5006.03,
+      "change": 6.32
     },
     {
       "name": "KOSDAQ",
-      "value": 635.45,
-      "change": -1.58
+      "value": 665.88,
+      "change": 4.79
     },
     {
       "name": "S&P 500",
-      "value": 7248.93,
-      "change": 4.9
+      "value": 7203.31,
+      "change": -0.47
     },
     {
       "name": "NASDAQ",
-      "value": 24125.12,
-      "change": 6.66
+      "value": 23746.98,
+      "change": -1.42
     }
   ],
   "fx": {
     "name": "USD/KRW",
-    "value": 1342.04,
-    "change": 0.54
+    "value": 1343.04,
+    "change": -0.09
   },
   "stocks": [
     {
@@ -33,19 +33,19 @@
       "name": "삼성전자",
       "code": "005930",
       "logo": "삼전",
-      "price": 180600.0,
-      "change": -0.17,
-      "prevClose": 180900.0,
+      "price": 182900.0,
+      "change": 1.27,
+      "prevClose": 180600.0,
       "trend": [
-        1.1573,
-        1.0797,
-        1.0509,
-        1.0875,
-        1.093,
-        1.0017,
+        1.0662,
+        1.0377,
+        1.0738,
+        1.0793,
+        0.9891,
+        0.9874,
         1.0
       ],
-      "volume": 19550322,
+      "volume": 17045817,
       "reasons": []
     },
     {
@@ -53,19 +53,19 @@
       "name": "SK하이닉스",
       "code": "000660",
       "logo": "SK",
-      "price": 1101000.0,
-      "change": 0.09,
-      "prevClose": 1100000.0,
+      "price": 1113000.0,
+      "change": 1.09,
+      "prevClose": 1101000.0,
       "trend": [
-        1.1199,
-        1.0154,
-        0.9991,
-        1.0572,
-        1.0808,
-        0.9991,
+        1.0045,
+        0.9883,
+        1.0458,
+        1.0692,
+        0.9883,
+        0.9892,
         1.0
       ],
-      "volume": 3945821,
+      "volume": 3595962,
       "reasons": []
     },
     {
@@ -73,19 +73,19 @@
       "name": "삼성전기",
       "code": "009150",
       "logo": "전기",
-      "price": 797000.0,
-      "change": 3.91,
-      "prevClose": 767000.0,
+      "price": 820000.0,
+      "change": 2.89,
+      "prevClose": 797000.0,
       "trend": [
-        1.0841,
-        0.9774,
-        0.9385,
-        1.0289,
-        1.1079,
-        0.9624,
+        0.95,
+        0.9122,
+        1.0,
+        1.0768,
+        0.9354,
+        0.972,
         1.0
       ],
-      "volume": 910685,
+      "volume": 864961,
       "reasons": []
     },
     {
@@ -93,19 +93,19 @@
       "name": "NVIDIA",
       "code": "NVDA",
       "logo": "NV",
-      "price": 164.63,
-      "change": 31.15,
-      "prevClose": 125.53,
+      "price": 154.17,
+      "change": -6.59,
+      "prevClose": 165.05,
       "trend": [
-        0.9892,
-        0.9484,
-        0.9443,
-        0.917,
-        0.8867,
-        0.7625,
+        1.0128,
+        1.0084,
+        0.9792,
+        0.9469,
+        0.8142,
+        1.0706,
         1.0
       ],
-      "volume": 600283003,
+      "volume": 263055228,
       "reasons": []
     },
     {
@@ -113,90 +113,90 @@
       "name": "Intel",
       "code": "INTC",
       "logo": "INTC",
-      "price": 58.33,
-      "change": 13.74,
-      "prevClose": 51.28,
+      "price": 55.26,
+      "change": -7.38,
+      "prevClose": 59.66,
       "trend": [
-        1.0229,
-        0.9511,
-        0.9459,
-        0.9373,
-        0.9553,
-        0.8792,
+        1.0039,
+        0.9985,
+        0.9894,
+        1.0084,
+        0.9281,
+        1.0797,
         1.0
       ],
-      "volume": 93225829,
+      "volume": 78923901,
       "reasons": []
     },
     {
       "group": "us_semi",
-      "name": "Micron",
-      "code": "MU",
-      "logo": "MU",
-      "price": 708.08,
-      "change": 19.1,
-      "prevClose": 594.51,
+      "name": "AMD",
+      "code": "AMD",
+      "logo": "AMD",
+      "price": 413.57,
+      "change": -8.8,
+      "prevClose": 453.46,
       "trend": [
-        1.0992,
-        1.0155,
-        1.0061,
-        0.996,
-        0.9751,
-        0.8396,
+        1.2193,
+        1.2172,
+        1.2819,
+        1.1828,
+        1.0262,
+        1.0965,
         1.0
       ],
-      "volume": 36318347,
+      "volume": 31278208,
       "reasons": []
     }
   ],
   "news": [
     {
       "tag": "한국",
-      "text": "코스피, 3%대 급락 4,700선 턱걸이…코스닥 2년만에 최저(종합)",
-      "impact": "neutral",
-      "published": "Mon, 23 Nov 2026 07:11:06 GMT"
+      "text": "코스피, 젠슨 황 복귀에 5000선 안착...삼성전자·SK하이닉스 8~9% 상승세",
+      "impact": "pos",
+      "published": "Tue, 24 Nov 2026 05:13:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "‘검은 월요일’ 코스피 3.31% 하락...4700선 턱걸이 마감",
-      "impact": "neg",
-      "published": "Mon, 23 Nov 2026 07:26:00 GMT"
+      "text": "6% 급등한 코스피 5000선 턱걸이…“젠슨 황 복귀는 단기 호재”",
+      "impact": "neutral",
+      "published": "Tue, 24 Nov 2026 15:39:00 GMT"
     },
     {
       "tag": "한국",
-      "text": "코스피 5% 폭락에 매도 사이드카…장중 4500선까지",
+      "text": "[We Do Together] 협력사의 도전이 SK하이닉스의 경쟁력으로… 기술혁신기업과 R&D 도전보상제 이야기",
       "impact": "neutral",
-      "published": "Mon, 23 Nov 2026 06:13:00 GMT"
+      "published": "Tue, 24 Nov 2026 08:52:57 GMT"
     },
     {
       "tag": "한국",
-      "text": "[증시 AI충격파] \"코스피, 이미 IT버블 붕괴 수준…급락주 반등 가능성\"",
+      "text": "코스피 야간선물 7% 점프…美 '젠슨황 복귀랠리' 동반급등",
       "impact": "neutral",
-      "published": "Sun, 22 Nov 2026 23:24:00 GMT"
+      "published": "Tue, 24 Nov 2026 17:13:44 GMT"
     },
     {
       "tag": "미국",
-      "text": "엔비디아, 젠슨 황 CEO로 재임명…주가 27% 폭등(상보)",
+      "text": "엔비디아 31% 급등에 공매도 하루 15조원 손실…3배 인버스 ‘휴지조각’",
       "impact": "neutral",
-      "published": "Mon, 23 Nov 2026 14:05:05 GMT"
+      "published": "Tue, 24 Nov 2026 04:41:04 GMT"
     },
     {
       "tag": "미국",
-      "text": "젠슨 황 CEO 즉시 복귀…엔비디아 주가 30% 폭등",
-      "impact": "neutral",
-      "published": "Mon, 23 Nov 2026 14:22:43 GMT"
+      "text": "'젠슨 황 엔비디아 복귀'에 5천피 회복...추세 반등?",
+      "impact": "pos",
+      "published": "Tue, 24 Nov 2026 12:58:00 GMT"
     },
     {
       "tag": "미국",
-      "text": "젠슨 황, 엔비디아 CEO 전격 복귀…이사회 공식 발표",
+      "text": "엔비디아 주식 최대 820억원어치 가진 트럼프…취임 후 108차례 거래",
       "impact": "neutral",
-      "published": "Mon, 23 Nov 2026 15:31:00 GMT"
+      "published": "Tue, 24 Nov 2026 06:03:48 GMT"
     },
     {
       "tag": "미국",
-      "text": "젠슨 황 CEO 즉시 복귀, 엔비디아 이사회 결정",
+      "text": "“엔비디아 이사회는 전원 사퇴해야” 기업구조 전문가 경악시킨 젠슨 황 복귀 결정",
       "impact": "neutral",
-      "published": "Mon, 23 Nov 2026 14:07:00 GMT"
+      "published": "Tue, 24 Nov 2026 09:14:00 GMT"
     },
     {
       "tag": "전쟁",
